@@ -34,8 +34,6 @@ class Alignment:
         Query alignment segments as (start, sequence, end).
     sbjct_align_chunks : list of tuple
         Subject alignment segments as (start, sequence, end).
-    subj_range : tuple
-        Range (start, end) of aligned region in the subject.
     """
 
     def __init__(
@@ -51,7 +49,6 @@ class Alignment:
         align_len,
         query_align_chunks,
         sbjct_align_chunks,
-        subj_range,
     ):
         self.subj_id = subj_id
         self.subj_name = subj_name
@@ -223,6 +220,8 @@ def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True):
             "FORMAT_OBJECT": "Alignment",
             "FORMAT_TYPE": "Text",
             "RID": rid,
+            "DESCRIPTIONS": 100,
+            "ALIGNMENTS": 100,
         },
     )
 
@@ -305,7 +304,7 @@ def parse_blast_text_output(text):
                             int(sbjct_parts[3]),
                         )
                         sbjct_chunks.append((s_start, s_seq, s_end))
-                        subj_range = (s_start, s_end)
+                        # subj_range = (s_start, s_end)
                 elif line.startswith(">") or line.startswith("Sequence ID:"):
                     break  # start of a new subject
                 i += 1
@@ -315,7 +314,6 @@ def parse_blast_text_output(text):
                     subj_id=subj_id,
                     subj_name=subj_name,
                     subj_len=subj_len,
-                    subj_range=subj_range,
                     score_bits=score_bits,
                     score=score,
                     e_value=e_value,
