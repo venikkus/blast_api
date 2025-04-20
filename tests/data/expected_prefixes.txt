@@ -1,0 +1,7 @@
+AFNH01	Gregarina niphandrodes
+ABJQ01	Ascogregarina taiwanensis
+JAHYSE01	Porospora cf. gigantea A
+JAQIFP01	Ophryocystis elektroscirrha
+AFNH02	Gregarina niphandrodes
+JAHYSF01	Porospora cf. gigantea B
+JBLWGC01	Leidyana gryllorum

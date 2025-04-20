@@ -3,6 +3,16 @@ import time
 import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
+import logging
+
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+file_handler = logging.FileHandler("blast.log")
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
 
 
 class Alignment:
@@ -34,8 +44,6 @@ class Alignment:
         Query alignment segments as (start, sequence, end).
     sbjct_align_chunks : list of tuple
         Subject alignment segments as (start, sequence, end).
-    subj_range : tuple
-        Range (start, end) of aligned region in the subject.
     """
 
     def __init__(
@@ -51,7 +59,6 @@ class Alignment:
         align_len,
         query_align_chunks,
         sbjct_align_chunks,
-        subj_range,
     ):
         self.subj_id = subj_id
         self.subj_name = subj_name
@@ -105,18 +112,21 @@ def run_blast(sequence, programm="tblastn", database="nt",
     alignments : list of Alignment
         Parsed results containing sequence alignments.
     """
+    logger.info(f"Submitting BLAST: program={programm}, db={database}, taxon={taxon}")
     if database == "wgs" and taxon:
         response = requests.post(
             "https://www.ncbi.nlm.nih.gov/Traces/wgs/index.cgi?",
             data={'q': f'&wt=xml&q=text%3A*{taxon}*%20AND%20project_s%3Awgs'})
         prefixes = extract_prefix_organism_pairs(response.text)
-        print("prefixes:", prefixes)
+        logger.info(f"prefixes: {prefixes}")
+        logger.info(f"database: {database}")
+
         prefix_list = [p for p, _ in prefixes]
         prefixes = filter_valid_wgs_ids(prefix_list)  # checks for database validity
         for prefix, organism in prefixes.items():
-            print(f"{prefix}: {organism}")
+            logger.info(f"{prefix}: {organism}")
         database = " ".join([f"WGS_VDB://{p}" for p in prefixes])
-        print("database:", database)
+        logger.info(f"database: {database}")
         taxon = None
 
     data = {
@@ -130,12 +140,12 @@ def run_blast(sequence, programm="tblastn", database="nt",
     # redefine values from kwargs params
     data.update(params)
     for key, value in params.items():
-        print(f"{key}: {str(value)}")
+        logger.info(f"Extra param: {key} = {value}")
 
     # request
     response = requests.post("https://blast.ncbi.nlm.nih.gov/Blast.cgi", data=data)
     text = response.text
-    print(f"NCBI initial response: {response.status_code}")
+    logger.info(f"NCBI submission status: {response.status_code}")
 
     rid, rtoe = None, None
     for line in text.splitlines():
@@ -149,9 +159,10 @@ def run_blast(sequence, programm="tblastn", database="nt",
                 rtoe = 20
 
     if rid:
-        print(f"RID: {rid} | Estimated wait: {rtoe} sec")
-        print(f"BLAST result link: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID={rid}")
+        logger.info(f"RID: {rid} | Estimated wait: {rtoe} sec")
+        logger.info(f"BLAST result link: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID={rid}")
     else:
+        logger.error("RID not found in response")
         raise Exception("RID not found in response. Full response:\n" + text)
 
     if wait:
@@ -174,7 +185,7 @@ def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True):
     poll_interval : int, optional
         Interval in seconds between status checks while waiting.
     verbose : bool, optional
-        Whether to print status updates.
+        Whether to logger.info status updates.
 
     Returns
     -------
@@ -194,22 +205,25 @@ def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True):
         html = response.text
 
         if "There was a problem with the search" in html:
+            logger.error(f"NCBI returned an error during check. RID: {rid}")
             raise Exception(f"NCBI returned an error during check. RID: {rid}")
 
         if "Status=WAITING" in html:
             if verbose:
-                print("Waiting for BLAST job to complete...")
+                logger.info("Waiting for BLAST job to complete...")
             time.sleep(poll_interval)
         elif "Status=FAILED" in html:
+            logger.error(f"BLAST search failed. RID: {rid}")
             raise Exception(f"BLAST search failed. RID: {rid}")
         elif "Status=UNKNOWN" in html:
+            logger.error(f"BLAST RID expired or unknown. RID: {rid}")
             raise Exception(f"BLAST RID expired or unknown. RID: {rid}")
         elif "Status=READY" in html:
             if "dscTable" in html or "Sequences producing significant alignments" in html:
                 break
             else:
                 if verbose:
-                    print(
+                    logger.info(
                         f"Warning: No significant hits found, but continuing to fetch result. RID: {rid}"
                     )
                 break
@@ -223,10 +237,13 @@ def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True):
             "FORMAT_OBJECT": "Alignment",
             "FORMAT_TYPE": "Text",
             "RID": rid,
+            "DESCRIPTIONS": 100,
+            "ALIGNMENTS": 100,
         },
     )
 
     if "There was a problem with the search" in result.text:
+        logger.error(f"NCBI returned an error in final fetch. RID: {rid}")
         raise Exception(f"NCBI returned an error in final fetch. RID: {rid}")
 
     return parse_blast_text_output(result.text)
@@ -305,7 +322,7 @@ def parse_blast_text_output(text):
                             int(sbjct_parts[3]),
                         )
                         sbjct_chunks.append((s_start, s_seq, s_end))
-                        subj_range = (s_start, s_end)
+                        # subj_range = (s_start, s_end)
                 elif line.startswith(">") or line.startswith("Sequence ID:"):
                     break  # start of a new subject
                 i += 1
@@ -315,7 +332,6 @@ def parse_blast_text_output(text):
                     subj_id=subj_id,
                     subj_name=subj_name,
                     subj_len=subj_len,
-                    subj_range=subj_range,
                     score_bits=score_bits,
                     score=score,
                     e_value=e_value,
@@ -329,7 +345,7 @@ def parse_blast_text_output(text):
 
             while i < len(lines) and not lines[i].startswith(" Score ="):
                 i += 1
-
+    logger.info(f"Parsed {len(alignments)} alignments from BLAST output")
     return alignments
 
 
@@ -337,11 +353,11 @@ def extract_prefix_organism_pairs(xml_text):
     root = ET.fromstring(xml_text)
     results = []
 
-    # print numFound
+    # logger.info numFound
     result_element = root.find(".//result[@name='response']")
     if result_element is not None:
         num_found = result_element.attrib.get("numFound")
-        print(f"[WGS index] Found {num_found} matching entries.")
+        logger.info(f"[WGS index] Found {num_found} matching entries.")
 
     for doc in root.findall(".//doc"):
         prefix = None
@@ -371,6 +387,7 @@ def filter_valid_wgs_ids(prefixes):
     dict
         Dict {prefix: organism}, only for valid prefixes.
     """
+    logger.info("Running filter_valid_wgs_ids")
     db_string = ",".join(f"WGS_VDB://{p}" for p in prefixes)
 
     headers = {
@@ -389,11 +406,13 @@ def filter_valid_wgs_ids(prefixes):
         "https://blast.ncbi.nlm.nih.gov/getDBInfo.cgi", headers=headers, params=params
     )
     if response.status_code != 200:
+        logger.error(f"Request failed with status code {response.status_code}")
         raise Exception(f"Request failed with status code {response.status_code}")
 
     soup = BeautifulSoup(response.text, "html.parser")
     table = soup.find("table", {"id": "dbSpecies"})
     if not table:
+        logger.error(f"No species table found in response")
         raise Exception("No species table found in response.")
 
     valid = {}
@@ -404,4 +423,5 @@ def filter_valid_wgs_ids(prefixes):
             organism = cols[1].text.strip()
             valid[db] = organism
 
+    logger.info(f"Validated WGS prefixes: {list(valid.keys())}")
     return valid

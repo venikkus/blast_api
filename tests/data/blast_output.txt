@@ -1,0 +1,3106 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+
+BLASTN 2.16.1+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: 079HGPWS013
+
+
+Database: Core nucleotide BLAST database
+           114,140,688 sequences; 850,125,702,659 total letters
+Query= 
+Length=290
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+JF826404.1 Amblyospora bogashovia isolate 1615 small subunit r...  446     1e-120  95%       
+AF027684.1 Edhazardia aedis small subunit ribosomal RNA gene, ...  446     1e-120  94%       
+AY090055.1 Amblyospora sp. isolate 1 small subunit ribosomal R...  444     4e-120  94%       
+JF826412.1 Amblyospora mocrushinia isolate 1791 small subunit ...  444     4e-120  94%       
+AY013359.1 Intrapredatorus barri 16S small subunit ribosomal R...  442     1e-119  94%       
+JF826408.1 Amblyospora jurginia isolate 1689 small subunit rib...  440     5e-119  94%       
+JF826413.1 Amblyospora modestium isolate 1869 small subunit ri...  440     5e-119  94%       
+AY090051.1 Amblyospora indicola isolate 1 small subunit riboso...  440     5e-119  94%       
+AY090052.1 Amblyospora opacita isolate 1 small subunit ribosom...  440     5e-119  94%       
+AY090048.1 Amblyospora weiseri isolate 1 small subunit ribosom...  440     5e-119  94%       
+JF826402.1 Amblyospora bakcharia isolate 1686 small subunit ri...  438     2e-118  94%       
+HM594266.1 Amblyospora rugosa isolate 3 small subunit ribosoma...  438     2e-118  94%       
+HM594264.1 Amblyospora rugosa isolate 1 small subunit ribosoma...  438     2e-118  94%       
+JF826414.1 Amblyospora rugosa isolate 1617 small subunit ribos...  438     2e-118  94%       
+HM594265.1 Amblyospora rugosa isolate 2 small subunit ribosoma...  438     2e-118  94%       
+JF826418.1 Amblyospora timirasia isolate 1687 small subunit ri...  429     1e-115  93%       
+JF826405.1 Amblyospora chulymia isolate 1640 small subunit rib...  429     1e-115  93%       
+AY326270.1 Amblyospora salinaria 16S ribosomal RNA gene, parti...  427     4e-115  93%       
+AY090053.1 Amblyospora sp. isolate 1 small subunit ribosomal R...  427     4e-115  93%       
+JF826409.1 Amblyospora kazankia isolate 1507 small subunit rib...  427     4e-115  93%       
+JF826407.1 Amblyospora hristinia isolate 1678 small subunit ri...  425     1e-114  93%       
+JF826411.1 Amblyospora mavlukevia isolate 1676 small subunit r...  424     5e-114  93%       
+AY090061.1 Amblyospora criniferis isolate 1 small subunit ribo...  424     5e-114  93%       
+JF826403.1 Amblyospora baritia isolate 1682 small subunit ribo...  424     5e-114  93%       
+JF826416.1 Amblyospora shegaria isolate 1685 small subunit rib...  424     5e-114  93%       
+AY090047.1 Amblyospora khaliulini isolate 2 small subunit ribo...  422     2e-113  93%       
+JF826410.1 Amblyospora kolarovi isolate 1503 small subunit rib...  422     2e-113  93%       
+AY090045.1 Amblyospora khaliulini isolate 1 small subunit ribo...  418     2e-112  92%       
+AY326269.1 Culicospora magna 16S ribosomal RNA gene, partial s...  418     2e-112  93%       
+AY090056.1 Amblyospora canadensis isolate 1 small subunit ribo...  418     2e-112  93%       
+AF025685.1 Amblyospora connecticus small subunit ribosomal RNA...  418     2e-112  93%       
+AY090046.1 Amblyospora khaliulini isolate 1 small subunit ribo...  418     2e-112  92%       
+AY090054.1 Culicospora magna isolate 1 small subunit ribosomal...  418     2e-112  93%       
+MT118721.2 Amblyospora sp. isolate B5 small subunit ribosomal ...  416     8e-112  92%       
+AY090050.1 Amblyospora stimuli isolate 1 small subunit ribosom...  416     8e-112  92%       
+MT118722.2 Amblyospora sp. isolate B9 small subunit ribosomal ...  416     8e-112  92%       
+AY090049.1 Amblyospora stictici isolate 1 small subunit riboso...  416     8e-112  92%       
+U68474.1 Amblyospora sp. small subunit ribosomal RNA gene          414     3e-111  92%       
+U68473.1 Amblyospora californica small subunit ribosomal RNA gene  412     1e-110  92%       
+JF826415.1 Amblyospora salairia isolate 1675 small subunit rib...  412     1e-110  92%       
+AY090057.1 Amblyospora cinerei isolate 1 small subunit ribosom...  407     5e-109  92%       
+AY090058.1 Amblyospora cinerei isolate 1 small subunit ribosom...  407     5e-109  92%       
+AY090059.1 Amblyospora cinerei isolate 2 small subunit ribosom...  407     5e-109  92%       
+AY090060.1 Amblyospora cinerei isolate 1 small subunit ribosom...  407     5e-109  92%       
+HM594268.1 Trichotosporea pygopellita isolate 2 small subunit ...  401     2e-107  92%       
+HM594269.1 Trichotosporea pygopellita isolate 3 small subunit ...  401     2e-107  92%       
+HM594267.1 Trichotosporea pygopellita isolate 1 small subunit ...  401     2e-107  92%       
+JF826417.1 Amblyospora severinia isolate 1688 small subunit ri...  390     5e-104  91%       
+JF826406.1 Amblyospora flavescens isolate 1506 small subunit r...  390     5e-104  91%       
+AY090043.1 Amblyospora excrucii isolate 1 small subunit riboso...  387     7e-103  91%       
+AY090062.1 Amblyospora ferocious isolate 1 small subunit ribos...  385     2e-102  91%       
+AF027685.1 Amblyospora stimuli small subunit ribosomal RNA gen...  375     1e-99   90%       
+EU664450.1 Andreanna caspii small subunit ribosomal RNA gene, ...  359     1e-94   89%       
+FJ756071.1 Microsporidium sp. BLAT20 small subunit ribosomal R...  355     2e-93   89%       
+FJ756026.1 Microsporidium sp. BLAP2 small subunit ribosomal RN...  350     9e-92   89%       
+KC111797.1 Uncultured Microsporidium sp. clone UBN_Seattle1 18...  350     9e-92   89%       
+FN794114.1 Octosporea muscaedomesticae partial 16S rRNA gene, ...  344     4e-90   88%       
+FJ756018.1 Microsporidium sp. BKES1 CAL small subunit ribosoma...  344     4e-90   88%       
+JF826421.1 Parathelohania tomski isolate 1651 small subunit ri...  340     5e-89   88%       
+FJ756020.1 Microsporidium sp. BKES1 LAT small subunit ribosoma...  339     2e-88   88%       
+OP748373.1 Parathelohania iranica isolate Microcyclsp-1 small ...  333     9e-87   88%       
+FJ756019.1 Microsporidium sp. BKES1 KES small subunit ribosoma...  333     9e-87   88%       
+KM277793.1 Parathelohania iranica clone AS130909 small subunit...  333     9e-87   88%       
+KC111790.1 Uncultured Microsporidium sp. clone RBS_Van12 18S r...  333     9e-87   88%       
+OQ028681.1 Parathelohania iranica isolate 2 small subunit ribo...  333     9e-87   88%       
+JF826419.1 Novothelohania ovalae isolate 1836 small subunit ri...  331     3e-86   87%       
+JF826420.1 Parathelohania divulgata isolate 1841 small subunit...  329     1e-85   87%       
+EU075357.1 Microsporidium sp. Turtle Lake 16S ribosomal RNA ge...  329     1e-85   87%       
+KF110991.1 Takaokaspora nipponicus 18S ribosomal RNA gene, par...  324     5e-84   87%       
+AY090065.1 Parathelohania obesa isolate 1 small subunit riboso...  324     5e-84   87%       
+KF110990.1 Takaokaspora nipponicus 18S ribosomal RNA gene, par...  324     5e-84   87%       
+MH645034.1 Conglomerata obtusa isolate DHM small subunit ribos...  322     2e-83   87%       
+EU075348.1 Microsporidium sp. Fribourg 16S ribosomal RNA gene,...  322     2e-83   87%       
+AY090066.1 Hazardia sp. isolate 1 small subunit ribosomal RNA ...  322     2e-83   87%       
+FJ794860.1 Microsporidium sp. MIC1 strain MIC1_ZLU01 16S ribos...  322     2e-83   87%       
+EU075350.1 Microsporidium sp. Angskar 21 16S ribosomal RNA gen...  322     2e-83   87%       
+FJ763529.1 Berwaldia sp. JJW-2009a strain BERW_AMM01 16S ribos...  322     2e-83   87%       
+FJ794856.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 1 1...  322     2e-83   87%       
+MK053815.1 Pseudoberwaldia daphniae isolate Jachym2 small subu...  322     2e-83   87%       
+AF394527.1 Larssonia obtusa isolate BR-39 16S small subunit ri...  322     2e-83   87%       
+MH645035.1 Conglomerata obtusa isolate DM348 small subunit rib...  322     2e-83   87%       
+EU075352.1 Microsporidium sp. Angskars-klubben 126 16S ribosom...  322     2e-83   87%       
+FJ794858.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 2 1...  322     2e-83   87%       
+FJ794861.1 Microsporidium sp. MIC1 strain MIC1_SEC01 16S ribos...  322     2e-83   87%       
+FJ763524.1 Berwaldia sp. JJW-2009a strain BERW_RIM01 16S ribos...  322     2e-83   87%       
+EU075349.1 Microsporidium sp. Angskar 16 16S ribosomal RNA gen...  322     2e-83   87%       
+FJ794857.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 4 1...  322     2e-83   87%       
+FJ763539.1 Berwaldia sp. JJW-2009a strain BERW_STA02+03 clone ...  322     2e-83   87%       
+EU075356.1 Microsporidium sp. Ripley Pond II 16S ribosomal RNA...  318     2e-82   87%       
+EU075354.1 Microsporidium sp. Lulu Lake 16S ribosomal RNA gene...  316     9e-82   86%       
+KC111791.1 Uncultured Microsporidium sp. clone RBS_Van13 18S r...  316     9e-82   87%       
+AY090042.1 Berwaldia schaefernai isolate 1 small subunit ribos...  316     9e-82   86%       
+FJ794859.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 3 1...  316     9e-82   86%       
+FJ763538.1 Berwaldia sp. JJW-2009a strain BERW_STA02+03 clone ...  316     9e-82   86%       
+EU075351.1 Microsporidium sp. Angskars-klubben 115/117 16S rib...  316     9e-82   86%       
+AY090067.1 Hazardia milleri isolate 1 small subunit ribosomal ...  316     9e-82   86%       
+AY090041.1 Marssoniella elegans isolate 1 small subunit riboso...  316     9e-82   87%       
+EU075355.1 Microsporidium sp. Ripley Pond I 16S ribosomal RNA ...  313     1e-80   86%       
+AF027682.1 Parathelohania anophelis small subunit ribosomal RN...  313     1e-80   86%       
+PQ556277.1 Microsporidium sp. voucher 1M Dthali-Mis small subu...  309     1e-79   88%       
+
+ALIGNMENTS
+>JF826404.1 Amblyospora bogashovia isolate 1615 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1358
+
+ Score = 446 bits (241),  Expect = 1e-120
+ Identities = 275/291 (95%), Gaps = 3/291 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  146  TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  206  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-GATATGTATGACGG  179
+            ||||||| ||||||||||||||||||||||||||||||||||||| | ||| ||||  ||
+Sbjct  266  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGGTATATATG--GG  323
+
+Query  180  GTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  239
+             |||||||| ||||| |  ||| |||||||||||||||||||||||||||||||||||||
+Sbjct  324  ATGTGTAAACAGCATTCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  383
+
+Query  240  TCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  384  ACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  434
+
+
+>AF027684.1 Edhazardia aedis small subunit ribosomal RNA gene, complete sequence
+Length=1448
+
+ Score = 446 bits (241),  Expect = 1e-120
+ Identities = 274/290 (94%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  161  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  220
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  221  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  280
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||||| ||||||||||||||||||||  ||| ||||| | |
+Sbjct  281  AGGCGCGAAACTTACCCAATGAACGTTGAGGTAGTTACGAGGCGTAGTAT-TATGAAGTG  339
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            |||||||| |||||||| ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  340  TGTGTAAAGAGCATACTGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  399
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct  400  CCAGCTCCAGTAGCGTCTGTTTTTATTGCTGCGGTTAAAACGTGCGTAGT  449
+
+
+>AY090055.1 Amblyospora sp. isolate 1 small subunit ribosomal RNA gene, partial 
+sequence
+Length=1348
+
+ Score = 444 bits (240),  Expect = 4e-120
+ Identities = 275/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  164  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  223
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  224  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  283
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  284  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTCTTGTATGAAG  343
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||||||||| |  ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  344  CGTGTGTAAAAAGCATGCAGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  403
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  404  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  455
+
+
+>JF826412.1 Amblyospora mocrushinia isolate 1791 small subunit ribosomal 
+RNA gene, partial sequence
+Length=1338
+
+ Score = 444 bits (240),  Expect = 4e-120
+ Identities = 275/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTCCTGTATGAAG  323
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||||||||| || ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  324  TGTGTGTAAAAAGCATGCTGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  383
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  384  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  435
+
+
+>AY013359.1 Intrapredatorus barri 16S small subunit ribosomal RNA, partial 
+sequence
+Length=1337
+
+ Score = 442 bits (239),  Expect = 1e-119
+ Identities = 275/292 (94%), Gaps = 3/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  159  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACGGTGGCGATGACGGGTAACGGGGAA  218
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  219  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTCCCACGTCCAAGGACGGCAGC  278
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGT--ATGACG  178
+            |||||||||||||||||||||||||||||||||||||||||| || || | |  ||||| 
+Sbjct  279  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGTGTCATTTATAGATGACA  338
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||| |||||   |||| ||||||||||||||||||||||||||||||| ||||
+Sbjct  339  AGTGTGTAAACAGCATTTCAAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC-GTAA  397
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  398  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  449
+
+
+>JF826408.1 Amblyospora jurginia isolate 1689 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1323
+
+ Score = 440 bits (238),  Expect = 5e-119
+ Identities = 274/291 (94%), Gaps = 3/291 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            |||||||||||||||||||||||||||| |||||| |||||||| |||||||||||||||
+Sbjct  146  TGACCTATCAGCTTGTCGGTACGGTAAGGGCGTACCGAGGCGATAACGGGTAACGGGGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  206  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGG-  179
+            ||||||| ||||||||||||||||||||||||||||||||||||| || ||||| | || 
+Sbjct  266  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-ATTTGTAT-ATGGA  323
+
+Query  180  GTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  239
+             |||||||| ||||| |  ||| |||||||||||||||||||||||||||||||||||||
+Sbjct  324  TTGTGTAAACAGCATTCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  383
+
+Query  240  TCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  384  ACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  434
+
+
+>JF826413.1 Amblyospora modestium isolate 1869 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1304
+
+ Score = 440 bits (238),  Expect = 5e-119
+ Identities = 274/291 (94%), Gaps = 4/291 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  141  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACGGTGGCGATGACGGGTAACGGGGAA  200
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  201  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGACGGCTCCCACGTCCAAGGACGGCAGC  260
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||| |||||| || | | | ||||| ||
+Sbjct  261  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTCACGAGGTGTCAGA-G-ATGACCGG  318
+
+Query  181  TGTGTAAAAAGCATACTA-AAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  239
+            |||||||| ||||| | | ||| |||||||||||||||||||||||||||||||||||||
+Sbjct  319  TGTGTAAACAGCAT-CGAGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  377
+
+Query  240  TCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  378  ACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  428
+
+
+>AY090051.1 Amblyospora indicola isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1305
+
+ Score = 440 bits (238),  Expect = 5e-119
+ Identities = 273/290 (94%), Gaps = 2/290 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACGGTGGCGATGACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGACGGCTCCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||| || || ||||   |
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTCAT-TG-ATGAACAG  321
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            |||| ||| |||||  ||||| | ||||||||||||||||||||||||||||||||||||
+Sbjct  322  TGTGCAAACAGCATTGTAAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  381
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  382  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  431
+
+
+>AY090052.1 Amblyospora opacita isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1371
+
+ Score = 440 bits (238),  Expect = 5e-119
+ Identities = 273/290 (94%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  145  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATGACGGGTAACGGGGAA  204
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  205  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  264
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||| || |||||||   |
+Sbjct  265  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTTAT-TGTATGAACTG  323
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            || ||  |||||||| | ||| ||||||||||||| ||||||||||||||||||||||| 
+Sbjct  324  TGCGTTTAAAGCATAGTGAAGTACTGGAGGGCAAGCCTGGTGCCAGCAGCCGCGGTAATA  383
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||| |||||||||||||||||||||||||||||||||||||||
+Sbjct  384  CCAGCTCCAGCAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  433
+
+
+>AY090048.1 Amblyospora weiseri isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1333
+
+ Score = 440 bits (238),  Expect = 5e-119
+ Identities = 274/291 (94%), Gaps = 3/291 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            |||||||||||||||||||||||||||| |||||| |||||||| |||||||||||||||
+Sbjct  145  TGACCTATCAGCTTGTCGGTACGGTAAGGGCGTACCGAGGCGATAACGGGTAACGGGGAA  204
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  205  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  264
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGG-  179
+            ||||||| ||||||||||||||||||||||||||||||||||||| || ||||| | || 
+Sbjct  265  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-ATTTGTAT-ATGGA  322
+
+Query  180  GTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  239
+             |||||||| ||||| |  ||| |||||||||||||||||||||||||||||||||||||
+Sbjct  323  TTGTGTAAACAGCATTCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  382
+
+Query  240  TCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  383  ACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  433
+
+
+>JF826402.1 Amblyospora bakcharia isolate 1686 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1332
+
+ Score = 438 bits (237),  Expect = 2e-118
+ Identities = 274/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTCTTGTATGAAG  323
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              |||||||||||||| |  ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  324  CATGTGTAAAAAGCATGCAGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  383
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  384  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  435
+
+
+>HM594266.1 Amblyospora rugosa isolate 3 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1376
+
+ Score = 438 bits (237),  Expect = 2e-118
+ Identities = 274/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  162  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  221
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  222  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  281
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  282  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTTTTGTATGAAG  341
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||||||||| |  ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  342  TGTGTGTAAAAAGCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  401
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  402  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  453
+
+
+>HM594264.1 Amblyospora rugosa isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1456
+
+ Score = 438 bits (237),  Expect = 2e-118
+ Identities = 274/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  162  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  221
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  222  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  281
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  282  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTTTTGTATGAAG  341
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||||||||| |  ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  342  TGTGTGTAAAAAGCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  401
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  402  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  453
+
+
+>JF826414.1 Amblyospora rugosa isolate 1617 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1339
+
+ Score = 438 bits (237),  Expect = 2e-118
+ Identities = 274/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTTTTGTATGAAG  323
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||||||||| |  ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  324  TGTGTGTAAAAAGCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  383
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  384  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  435
+
+
+>HM594265.1 Amblyospora rugosa isolate 2 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1347
+
+ Score = 438 bits (237),  Expect = 2e-118
+ Identities = 274/292 (94%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  146  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  206  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA--TGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  |   ||||||| |
+Sbjct  266  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTTTTGTATGAAG  325
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||||||||||| |  ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  326  TGTGTGTAAAAAGCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  385
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  386  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  437
+
+
+>JF826418.1 Amblyospora timirasia isolate 1687 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1420
+
+ Score = 429 bits (232),  Expect = 1e-115
+ Identities = 271/290 (93%), Gaps = 2/290 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  146  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  206  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||| || | ||||  |  
+Sbjct  266  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAAT-T-TATGTAGTA  323
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||| ||||   |||||| ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  324  TGTATAAATGACATACTGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  383
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  384  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  433
+
+
+>JF826405.1 Amblyospora chulymia isolate 1640 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1342
+
+ Score = 429 bits (232),  Expect = 1e-115
+ Identities = 271/290 (93%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||||||||||||||||||||||||||   || ||||| |  
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGGAT-TATGAAGCA  322
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||| |||| ||||| |  ||| | ||||||||||||||||||||||||||||||||||||
+Sbjct  323  TGTATAAAGAGCATGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  382
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  383  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  432
+
+
+>AY326270.1 Amblyospora salinaria 16S ribosomal RNA gene, partial sequence
+Length=1508
+
+ Score = 427 bits (231),  Expect = 4e-115
+ Identities = 272/292 (93%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| |||||||||||||  |||||||||||||||||||||||||||||||
+Sbjct  290  TGACCTATCAGCTAGTCGGTACGGTAAAGGCGTACGGAGGCGATGACGGGTAACGGGGAA  349
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  350  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  409
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATG-TATGACGG  179
+            ||||||||||||||||||||||||||||||||||||||| || |||| ||  |||||   
+Sbjct  410  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGTGTGACATTCTATGAACC  469
+
+Query  180  GTGTGTAAAAAGCATACTAAAG-CACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+            |||| | |||||||   | ||| || ||||||||||||||||||||||||||||||||||
+Sbjct  470  GTGTCTTAAAAGCAGGGTTAAGACATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  529
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  530  TTCCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  581
+
+
+>AY090053.1 Amblyospora sp. isolate 1 small subunit ribosomal RNA gene, partial 
+sequence
+Length=1352
+
+ Score = 427 bits (231),  Expect = 4e-115
+ Identities = 272/292 (93%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| |||||||||||||  |||||||||||||||||||||||||||||||
+Sbjct  153  TGACCTATCAGCTAGTCGGTACGGTAAAGGCGTACGGAGGCGATGACGGGTAACGGGGAA  212
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  213  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  272
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATG-TATGACGG  179
+            ||||||||||||||||||||||||||||||||||||||| || |||| ||  |||||   
+Sbjct  273  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGTGTGACATTCTATGAACC  332
+
+Query  180  GTGTGTAAAAAGCATACTAAAG-CACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+            |||| | |||||||   | ||| || ||||||||||||||||||||||||||||||||||
+Sbjct  333  GTGTCTTAAAAGCAGGGTTAAGACATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  392
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  393  TTCCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  444
+
+
+>JF826409.1 Amblyospora kazankia isolate 1507 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1338
+
+ Score = 427 bits (231),  Expect = 4e-115
+ Identities = 272/292 (93%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATAT--GTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||| |||||  | |  ||||||  
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACTTTAAGTATGAGT  323
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              ||||||||||||||  | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  324  TTTGTGTAAAAAGCATGATGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  383
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  384  TACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  435
+
+
+>JF826407.1 Amblyospora hristinia isolate 1678 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1289
+
+ Score = 425 bits (230),  Expect = 1e-114
+ Identities = 272/292 (93%), Gaps = 4/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  148  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  207
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  208  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  267
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-G-ATATGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||||||||| | || | ||||  |
+Sbjct  268  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGCAT-T-TATGTGG  325
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              |||||||| ||||||   ||| | ||||||||||||||||||||||||||||||||||
+Sbjct  326  TATGTGTAAACAGCATATCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  385
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  386  TACCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  437
+
+
+>JF826411.1 Amblyospora mavlukevia isolate 1676 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1355
+
+ Score = 424 bits (229),  Expect = 5e-114
+ Identities = 270/290 (93%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  322
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||||
+Sbjct  323  TGTGTAAACTCCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  382
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  383  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  432
+
+
+>AY090061.1 Amblyospora criniferis isolate 1 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1291
+
+ Score = 424 bits (229),  Expect = 5e-114
+ Identities = 271/291 (93%), Gaps = 3/291 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||||||||||| ||||||||||| | |||||| |||||||||||||||
+Sbjct  145  TGACCTATCAGCTTGTCGGTACGATAAGTGCGTACCGTGGCGATAACGGGTAACGGGGAA  204
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  205  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  264
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||| || | ||| |||||
+Sbjct  265  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-ATTTATAT-ACGGG  322
+
+Query  181  -TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  239
+             ||| |||| ||||| |  ||| | ||||||||||| |||||||||||||||||||||||
+Sbjct  323  ATGTATAAATAGCATTCCCAAGTATTGGAGGGCAAGCCTGGTGCCAGCAGCCGCGGTAAT  382
+
+Query  240  TCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  383  ACCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  433
+
+
+>JF826403.1 Amblyospora baritia isolate 1682 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1055
+
+ Score = 424 bits (229),  Expect = 5e-114
+ Identities = 270/290 (93%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||| ||||||||||| |||||||| |||||||||||||||
+Sbjct  143  TGACCTATCAGCTTGACGGTACGATAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  202
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  203  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  262
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  || 
+Sbjct  263  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGGA  321
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            |||||||| ||||| |  ||| | ||||||||||||||||||||||||||||||||||| 
+Sbjct  322  TGTGTAAAGAGCATGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  381
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  382  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  431
+
+
+>JF826416.1 Amblyospora shegaria isolate 1685 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1358
+
+ Score = 424 bits (229),  Expect = 5e-114
+ Identities = 270/290 (93%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||| ||||||||||| |||||||| |||||||||||||||
+Sbjct  144  TGACCTATCAGCTTGACGGTACGATAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  264  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  322
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            |||||||| | ||| |  ||| ||||||||||||||||||||||||||||||||||||||
+Sbjct  323  TGTGTAAACACCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  382
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  383  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  432
+
+
+>AY090047.1 Amblyospora khaliulini isolate 2 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1373
+
+ Score = 422 bits (228),  Expect = 2e-113
+ Identities = 271/292 (93%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  162  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  221
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  222  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  281
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-G-ATATGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||||||||| | || | ||||  |
+Sbjct  282  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGCATTTATATGTGG  341
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              ||| |||| ||||||   ||| | ||||||||||||||||||||||||||||||||||
+Sbjct  342  TATGTTTAAATAGCATATCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  401
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  402  TACCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  453
+
+
+>JF826410.1 Amblyospora kolarovi isolate 1503 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1294
+
+ Score = 422 bits (228),  Expect = 2e-113
+ Identities = 271/292 (93%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  148  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  207
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  208  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  267
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-G-ATATGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||||||||| | || | ||||  |
+Sbjct  268  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGCATTTATATGTGG  327
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              ||| |||| ||||||   ||| | ||||||||||||||||||||||||||||||||||
+Sbjct  328  TATGTTTAAATAGCATATCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  387
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  388  TACCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  439
+
+
+>AY090045.1 Amblyospora khaliulini isolate 1 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1380
+
+ Score = 418 bits (226),  Expect = 2e-112
+ Identities = 270/292 (92%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  168  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  227
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  228  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  287
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-G-ATATGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||||||||| | || | ||||  |
+Sbjct  288  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGCATTTATATGTGG  347
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              ||| |||| ||||||   ||| | ||||||||||||||||||||||||||||||||||
+Sbjct  348  TATGTTTAAATAGCATATCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  407
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||| ||||||||||||||||||||| ||||||||||||||||||
+Sbjct  408  TACCAGCTCCAATAGCGTCTGTGTTTATTGCTGNGGTTAAAACGTGCGTAGT  459
+
+
+>AY326269.1 Culicospora magna 16S ribosomal RNA gene, partial sequence
+Length=1114
+
+ Score = 418 bits (226),  Expect = 2e-112
+ Identities = 269/290 (93%), Gaps = 2/290 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| | ||||||||||||||||||||||||| ||||||||||||||||||
+Sbjct  157  TGACCTATCAGCTAGACGGTACGGTAAGTGCGTACGGAGGCTATGACGGGTAACGGGGAA  216
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  217  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  276
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | || ||||   |
+Sbjct  277  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TG-ATGAGCTG  334
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            || ||||| ||||   | ||  ||||||||||||||||||||||||||||||||||||| 
+Sbjct  335  TGCGTAAAGAGCAGGGTGAACGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  394
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  395  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  444
+
+
+>AY090056.1 Amblyospora canadensis isolate 1 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1399
+
+ Score = 418 bits (226),  Expect = 2e-112
+ Identities = 269/290 (93%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  157  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  216
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  217  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  276
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  277  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  335
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  336  TGTGTAAAGTACATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  395
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  396  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  445
+
+
+>AF025685.1 Amblyospora connecticus small subunit ribosomal RNA gene, partial 
+sequence
+Length=1368
+
+ Score = 418 bits (226),  Expect = 2e-112
+ Identities = 274/296 (93%), Gaps = 8/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| | ||| || |||||||||||||||
+Sbjct  165  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGTGGCTATAACGGGTAACGGGGAA  224
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  225  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  284
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTG--AT-A-TGTATGA  176
+            |||||||||||||||||||||||||||||||||||||||||||||   || | ||||| |
+Sbjct  285  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTATTATTAGTGTAT-A  343
+
+Query  177  CGGGTGTGTA-AAA-AGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+             || |||||| ||| |||| ||  ||| ||||||||||||||||||||||||||||||||
+Sbjct  344  TGG-TGTGTATAAACAGCACACCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  402
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||| |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  403  GTAATACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  458
+
+
+>AY090046.1 Amblyospora khaliulini isolate 1 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1380
+
+ Score = 418 bits (226),  Expect = 2e-112
+ Identities = 270/292 (92%), Gaps = 2/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  168  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  227
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  228  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  287
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-G-ATATGTATGACG  178
+            ||||||||||||||||||||||||||||||||||||||||||||| | || | ||||  |
+Sbjct  288  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAGCATTTATATGTGG  347
+
+Query  179  GGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+              ||| |||| ||||||   ||| | ||||||||||||||||||||||||||||||||||
+Sbjct  348  TATGTTTAAATAGCATATCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  407
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            | ||||||||| ||||||||||||||||||||| ||||||||||||||||||
+Sbjct  408  TACCAGCTCCAATAGCGTCTGTGTTTATTGCTGNGGTTAAAACGTGCGTAGT  459
+
+
+>AY090054.1 Culicospora magna isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1053
+
+ Score = 418 bits (226),  Expect = 2e-112
+ Identities = 269/290 (93%), Gaps = 2/290 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| | ||||||||||||||||||||||||| ||||||||||||||||||
+Sbjct  143  TGACCTATCAGCTAGACGGTACGGTAAGTGCGTACGGAGGCTATGACGGGTAACGGGGAA  202
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  203  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  262
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | || ||||   |
+Sbjct  263  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TG-ATGAGCTG  320
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            || ||||| ||||   | ||  ||||||||||||||||||||||||||||||||||||| 
+Sbjct  321  TGCGTAAAGAGCAGGGTGAACGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  380
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  381  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  430
+
+
+>MT118721.2 Amblyospora sp. isolate B5 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1321
+
+ Score = 416 bits (225),  Expect = 8e-112
+ Identities = 277/300 (92%), Gaps = 12/300 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  118  TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  177
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  178  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  237
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA---T-GTAT-G  175
+            ||||||||||||||||||||||||||||||||||||||||||||| |||   | || | |
+Sbjct  238  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-ATAGGGTTGTTTTG  296
+
+Query  176  -A--CGGG-TGTGTAAAAAGCATACT-AAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGC  230
+             |  |||| |||||||  ||||| |  |||| ||||||||||||||||||||||||||||
+Sbjct  297  TATTCGGGATGTGTAAGTAGCATCCCCAAAG-ACTGGAGGGCAAGTCTGGTGCCAGCAGC  355
+
+Query  231  CGCGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  356  CGCGGTAATACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  415
+
+
+>AY090050.1 Amblyospora stimuli isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1233
+
+ Score = 416 bits (225),  Expect = 8e-112
+ Identities = 269/291 (92%), Gaps = 3/291 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  147  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  206
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  207  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  266
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  267  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  325
+
+Query  181  TGTGTAAAAAGCATA-CTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  239
+            ||  |||| |  ||  || ||| |||||||||||||||||||||||||||||||||||||
+Sbjct  326  TGNNTAAAGAATATGGCT-AAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAAT  384
+
+Query  240  TCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  385  ACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  435
+
+
+>MT118722.2 Amblyospora sp. isolate B9 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1335
+
+ Score = 416 bits (225),  Expect = 8e-112
+ Identities = 277/300 (92%), Gaps = 12/300 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  118  TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  177
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  178  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  237
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATA---T-GTAT-G  175
+            ||||||||||||||||||||||||||||||||||||||||||||| |||   | || | |
+Sbjct  238  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-ATAGGGTTGTTTTG  296
+
+Query  176  -A--CGGG-TGTGTAAAAAGCATACT-AAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGC  230
+             |  |||| |||||||  ||||| |  |||| ||||||||||||||||||||||||||||
+Sbjct  297  TATTCGGGATGTGTAAGTAGCATCCCCAAAG-ACTGGAGGGCAAGTCTGGTGCCAGCAGC  355
+
+Query  231  CGCGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  356  CGCGGTAATACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  415
+
+
+>AY090049.1 Amblyospora stictici isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1372
+
+ Score = 416 bits (225),  Expect = 8e-112
+ Identities = 271/293 (92%), Gaps = 3/293 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  163  TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  222
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  223  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  282
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGA-TA-TG-TATGAC  177
+            ||||||| |||||||||||||||||||||||||||||||||||||   ||  | |||   
+Sbjct  283  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTATTTACGGATATATG  342
+
+Query  178  GGGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTA  237
+            |||||| |||  ||||| |  ||| |||||||||||||||||||||||||||||||||||
+Sbjct  343  GGGTGTATAACTAGCATTCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTA  402
+
+Query  238  ATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            || |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  403  ATACCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  455
+
+
+>U68474.1 Amblyospora sp. small subunit ribosomal RNA gene
+Length=1348
+
+ Score = 414 bits (224),  Expect = 3e-111
+ Identities = 270/292 (92%), Gaps = 3/292 (1%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| |||||||||||||  |||||||||||||||||||||||||||||||
+Sbjct  167  TGACCTATCAGCTAGTCGGTACGGTAAAGGCGTACGGAGGCGATGACGGGTAACGGGGAA  226
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  227  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  286
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATG-TATGACGG  179
+            ||||||||||||||||||||||||||||||||||||||| || |||| ||  |||||   
+Sbjct  287  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGTGTGACATTCTATGAACC  346
+
+Query  180  GTGTGTAAAAAGCATACTAAAG-CACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+            |||| | |||||||   | ||| || |||||||||||| |||||||||||||||||||||
+Sbjct  347  GTGTCTTAAAAGCAGGGTTAAGACATTGGAGGGCAAGTTTGGTGCCAGCAGCCGCGGTAA  406
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||| ||||||||||||||||||||||||||||||||| ||||||
+Sbjct  407  TTCCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGT-CGTAGT  457
+
+
+>U68473.1 Amblyospora californica small subunit ribosomal RNA gene
+Length=1338
+
+ Score = 412 bits (223),  Expect = 1e-110
+ Identities = 271/293 (92%), Gaps = 7/293 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| |||||||||||||  |||||||||||||||||||||||||||||||
+Sbjct  166  TGACCTATCAGCTAGTCGGTACGGTAAAGGCGTACGGAGGCGATGACGGGTAACGGGGAA  225
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| 
+Sbjct  226  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCAC-TCCAAGGACGGCAG-  283
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATG-TATGACGG  179
+            | ||||||||||||||||||||||||||||||||||||| || |||| ||  ||||||  
+Sbjct  284  A-GCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGTGTGACATTCTATGACC-  341
+
+Query  180  GTGTGTAAAAAGCATACTAAAG-CACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+            |||||| |||||||   | ||| || ||||||||||||||||||||||||||||||||||
+Sbjct  342  GTGTGTTAAAAGCAGGGTTAAGACATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  401
+
+Query  239  -TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+             ||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  402  TTTCCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  454
+
+
+>JF826415.1 Amblyospora salairia isolate 1675 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1357
+
+ Score = 412 bits (223),  Expect = 1e-110
+ Identities = 268/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  145  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCAATAACGGGTAACGGGGAA  204
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  205  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  264
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  265  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  323
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  324  TGTGTAAACTCCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  383
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  384  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  433
+
+
+>AY090057.1 Amblyospora cinerei isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1258
+
+ Score = 407 bits (220),  Expect = 5e-109
+ Identities = 267/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  166  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCAATAACGGGTAACGGGGAA  225
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  226  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  285
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| ||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  286  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  344
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  345  TGTGTAAACTCCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  404
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  405  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  454
+
+
+>AY090058.1 Amblyospora cinerei isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1257
+
+ Score = 407 bits (220),  Expect = 5e-109
+ Identities = 267/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  166  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCAATAACGGGTAACGGGGAA  225
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  226  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  285
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| ||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  286  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  344
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  345  TGTGTAAACTCCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  404
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  405  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  454
+
+
+>AY090059.1 Amblyospora cinerei isolate 2 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1252
+
+ Score = 407 bits (220),  Expect = 5e-109
+ Identities = 267/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  160  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCAATAACGGGTAACGGGGAA  219
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  220  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  279
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| ||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  280  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  338
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  339  TGTGTAAACTCCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  398
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  399  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  448
+
+
+>AY090060.1 Amblyospora cinerei isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1248
+
+ Score = 407 bits (220),  Expect = 5e-109
+ Identities = 267/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  166  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCAATAACGGGTAACGGGGAA  225
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  226  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  285
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| ||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  286  AGGCGCGCAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  344
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            ||||||||   ||| |  ||| ||||||||||||||||||||||||||||||||||||| 
+Sbjct  345  TGTGTAAACTCCATGCCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  404
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  405  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAATGTGCGTAGT  454
+
+
+>HM594268.1 Trichotosporea pygopellita isolate 2 small subunit ribosomal 
+RNA gene, partial sequence
+Length=1389
+
+ Score = 401 bits (217),  Expect = 2e-107
+ Identities = 266/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  146  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  206  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||||| |||||||||||||| |||||  | | ||||| | |
+Sbjct  266  AGGCGCGAAACTTACCCAATGAACGTTGAGGTAGTTACGGGGCGTACTCT-TATGAGGCG  324
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+             || ||||| ||   |  ||| | ||||||||||||||||||||||||||||||||||| 
+Sbjct  325  AGTATAAAACGCTCGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  384
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  385  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  434
+
+
+>HM594269.1 Trichotosporea pygopellita isolate 3 small subunit ribosomal 
+RNA gene, partial sequence
+Length=1393
+
+ Score = 401 bits (217),  Expect = 2e-107
+ Identities = 266/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  161  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  220
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  221  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  280
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||||| |||||||||||||| |||||  | | ||||| | |
+Sbjct  281  AGGCGCGAAACTTACCCAATGAACGTTGAGGTAGTTACGGGGCGTACTCT-TATGAGGCG  339
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+             || ||||| ||   |  ||| | ||||||||||||||||||||||||||||||||||| 
+Sbjct  340  AGTATAAAACGCTCGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  399
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  400  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  449
+
+
+>HM594267.1 Trichotosporea pygopellita isolate 1 small subunit ribosomal 
+RNA gene, partial sequence
+Length=1317
+
+ Score = 401 bits (217),  Expect = 2e-107
+ Identities = 266/290 (92%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  148  TGACCTATCAGCTTGACGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  207
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  208  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  267
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||||| |||||||||||||| |||||  | | ||||| | |
+Sbjct  268  AGGCGCGAAACTTACCCAATGAACGTTGAGGTAGTTACGGGGCGTACTCT-TATGAGGCG  326
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+             || ||||| ||   |  ||| | ||||||||||||||||||||||||||||||||||| 
+Sbjct  327  AGTATAAAACGCTCGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  386
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  387  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  436
+
+
+>JF826417.1 Amblyospora severinia isolate 1688 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1372
+
+ Score = 390 bits (211),  Expect = 5e-104
+ Identities = 264/290 (91%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||| ||||||||||| ||||| || |||||||||||||||
+Sbjct  143  TGACCTATCAGCTTGACGGTACGATAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  202
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  203  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  262
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  263  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  321
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            | | |||| |  || |  ||| | ||||||||||||||||||||||||||||||||||| 
+Sbjct  322  TATTTAAAGAATATGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  381
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  382  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  431
+
+
+>JF826406.1 Amblyospora flavescens isolate 1506 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1372
+
+ Score = 390 bits (211),  Expect = 5e-104
+ Identities = 264/290 (91%), Gaps = 1/290 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||| ||||||||||| ||||| || |||||||||||||||
+Sbjct  143  TGACCTATCAGCTTGACGGTACGATAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  202
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  203  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  262
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||||||||||||||||||||||||||||||||||| |||||  | ||||||  |  
+Sbjct  263  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGGGGCGTACT-TGTATGCAGCA  321
+
+Query  181  TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATT  240
+            | | |||| |  || |  ||| | ||||||||||||||||||||||||||||||||||| 
+Sbjct  322  TATTTAAAGAATATGCCGAAGTATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATA  381
+
+Query  241  CCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  382  CCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  431
+
+
+>AY090043.1 Amblyospora excrucii isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+ AY090044.1 Amblyospora excrucii isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1351
+
+ Score = 387 bits (209),  Expect = 7e-103
+ Identities = 269/297 (91%), Gaps = 8/297 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| | ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  152  TGACCTATCAGCTCGACGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  211
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  212  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  271
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATG----A  176
+            ||||||||||||||||||||||||||||||||||||| ||||||| || ||| ||    |
+Sbjct  272  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTATGAGGCGTAAT-TGTGTGGGTTA  330
+
+Query  177  CG-GG--TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             | ||  |||||||| ||||||   ||| |||||||||||||||||||||||||||||||
+Sbjct  331  TGCGGTATGTGTAAACAGCATATCGAAGTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  390
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||  ||||||||||||| |||||||||| ||||||||||||||| |||||||||
+Sbjct  391  GGTAACACCAGCTCCAGTAGTGTCTGTGTTTTTTGCTGCGGTTAAAATGTGCGTAGT  447
+
+
+>AY090062.1 Amblyospora ferocious isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1332
+
+ Score = 385 bits (208),  Expect = 2e-102
+ Identities = 266/293 (91%), Gaps = 7/293 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGC-TTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGA  59
+            |||||||||||| ||||||||||| ||||||||||| | ||| || ||||||||||||||
+Sbjct  160  TGACCTATCAGCTTTGTCGGTACGATAAGTGCGTACCGTGGCTATAACGGGTAACGGGGA  219
+
+Query  60   ATATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAG  119
+            |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Sbjct  220  ATATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAG  279
+
+Query  120  CAGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTAT-GACG  178
+            |||||||||||||||||||||||||||||||||||||||||||||| |  | ||| || |
+Sbjct  280  CAGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTAAGTTATATTGA-G  338
+
+Query  179  GGTGTGTAAAAAGCA-TACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTA  237
+              ||  |||||  || |  ||||  | |||||||||||||||||||||||||||||||||
+Sbjct  339  --TGAATAAAATACACTCATAAAT-ATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTA  395
+
+Query  238  ATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            || ||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  396  ATACCAGCTCCAATAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  448
+
+
+>AF027685.1 Amblyospora stimuli small subunit ribosomal RNA gene, complete 
+sequence
+Length=1361
+
+ Score = 375 bits (203),  Expect = 1e-99
+ Identities = 267/297 (90%), Gaps = 8/297 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| | ||||||||||||||||||| ||||| || |||||||||||||||
+Sbjct  165  TGACCTATCAGCTCGACGGTACGGTAAGTGCGTACCGAGGCTATAACGGGTAACGGGGAA  224
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||
+Sbjct  225  TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGTCTGCCACGTCCAAGGACGGCAGC  284
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATG----A  176
+            ||||||||||||||||||||||||||||||||||||| ||||||| || ||| ||    |
+Sbjct  285  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTATGAGGCGTAAT-TGTGTGGGTTA  343
+
+Query  177  CG-GG--TGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             | ||  |||||||| ||||||   ||| |||||||| ||||||||||||||| ||||||
+Sbjct  344  TGCGGTATGTGTAAACAGCATATCGAAGTACTGGAGGACAAGTCTGGTGCCAGGAGCCGC  403
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||| ||||||||||||| |||||||||| ||||||||||||||| |||||||||
+Sbjct  404  GGTAATACCAGCTCCAGTAGTGTCTGTGTTTTTTGCTGCGGTTAAAATGTGCGTAGT  460
+
+
+>EU664450.1 Andreanna caspii small subunit ribosomal RNA gene, partial sequence
+Length=1262
+
+ Score = 359 bits (194),  Expect = 1e-94
+ Identities = 262/294 (89%), Gaps = 7/294 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||||| ||||||||||||||||||| | ||| ||||||||||||||||||
+Sbjct  154  TGACCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCTATGACGGGTAACGGGGAA  213
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| |||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  214  TCAGGGTTTGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGACGGCAGC  273
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||| |||||||||||||||||||||||||||||||| |  || |||||| | |
+Sbjct  274  AGGCGCGAAAATTACCCAATGAACATTGAGGTAGTTACGAGGCATATTA-GTATGAGGCG  332
+
+Query  181  TGTGTAAAAAGCATA--CT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGT  236
+            |||||  || ||| |  || || || | ||||||||||||||||||||||||||||||||
+Sbjct  333  TGTGT--AACGCACACGCTGAAGGCGATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGT  390
+
+Query  237  AATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||  |||||||||||   ||||||||||||||| |||||||||
+Sbjct  391  AATTCCAGCTCCAAGAGCGTCTGTGTGATTTGCTGCGGTTAAAAAGTGCGTAGT  444
+
+
+>FJ756071.1 Microsporidium sp. BLAT20 small subunit ribosomal RNA gene, partial 
+sequence
+Length=776
+
+ Score = 355 bits (192),  Expect = 2e-93
+ Identities = 264/297 (89%), Gaps = 12/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| ||||||||||||| |||||||||||||||| |||||||||||||||
+Sbjct  163  TGGCCTATCAGCTAGTCGGTACGGTAATTGCGTACGGAGGCGATAACGGGTAACGGGGAA  222
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  223  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  282
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| ||||||||||||  | ||||
+Sbjct  283  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTGAT--G-ATGA  338
+
+Query  177  CGGGT-GTGTAAA-AAGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             |  |   ||||| ||| | || ||||| |||||||||||||||||||||||||||||||
+Sbjct  339  -GTCTACGGTAAATAAGTAGACGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  397
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||
+Sbjct  398  GGTAATTCCAGCTCCAGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  454
+
+
+>FJ756026.1 Microsporidium sp. BLAP2 small subunit ribosomal RNA gene, partial 
+sequence
+Length=756
+
+ Score = 350 bits (189),  Expect = 9e-92
+ Identities = 263/297 (89%), Gaps = 12/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||
+Sbjct  164  TGGCCTATCAGCTTGTCGGTACGGTAAGTGCGTACCGAGGCGACGACGGGTAACGGGGAA  223
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  224  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  283
+
+Query  121  AGGCGCGAAACTTACCCAAT-G-A--ACATTGAGGTAGTTACGAGGCGTG-ATATGTATG  175
+            |||||||||||||||||| | | |  ||   |||||||| |||||||||| ||||| |  
+Sbjct  284  AGGCGCGAAACTTACCCATTTGGAGGACCA-GAGGTAGTGACGAGGCGTGTATATG-AGA  341
+
+Query  176  ACGGGTGTGTAAAAAGC-ATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+            ||  | ||  || |||  || | ||||| ||||||||||||||||||||||| |||||||
+Sbjct  342  ACACG-GT-AAAGAAGTGAT-CGAAAGCAACTGGAGGGCAAGTCTGGTGCCAACAGCCGC  398
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||
+Sbjct  399  GGTAATTCCAGCTCCAGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  455
+
+
+>KC111797.1 Uncultured Microsporidium sp. clone UBN_Seattle1 18S ribosomal 
+RNA gene, partial sequence
+Length=635
+
+ Score = 350 bits (189),  Expect = 9e-92
+ Identities = 265/299 (89%), Gaps = 16/299 (5%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  146  TGGCCTATCAGCTAGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  206  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| |||||||||||   | ||  
+Sbjct  266  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTGA--CG-AT--  319
+
+Query  177  CGGGTGT---GTAAA-AAGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCC  231
+             |||| |   ||||| ||| |  | ||||| |||||||||||||||||||||||||||||
+Sbjct  320  -GGGTCTACGGTAAATAAGTAGGCGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCC  378
+
+Query  232  GCGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||
+Sbjct  379  GCGGTAATTCCAGCTCCAGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  437
+
+
+>FN794114.1 Octosporea muscaedomesticae partial 16S rRNA gene, isolate UIUC_INHS1
+Length=1168
+
+ Score = 344 bits (186),  Expect = 4e-90
+ Identities = 263/298 (88%), Gaps = 14/298 (5%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  TGGCCTATCAGCTAGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  184
+
+Query  61   TATGGGTTTTATTCC-GGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAG  119
+            |  |||||| ||||| |||||||||||||||||||||||| |||||||||||||||||||
+Sbjct  185  TCGGGGTTTGATTCCTGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAG  244
+
+Query  120  CAGGCGCGAAACTTACCCAAT-G-A--ACATTGAGGTAGTTACGAGGCGTGAT-ATG--T  172
+            ||||||||||||||||||| | | |  ||   |||||||| |||||||||||  |||  |
+Sbjct  245  CAGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTGACGATGGGT  303
+
+Query  173  ATGACGGGTGTGTAAAAAGCATACTAAAGCACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  232
+             | |||| |    || ||| |  | |||| ||||||||||||||||||||||||||||||
+Sbjct  304  CT-ACGG-T---AAATAAGTAGGCGAAAGGACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  358
+
+Query  233  CGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||
+Sbjct  359  CGGTAATTCCAGCTCCAGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  416
+
+
+>FJ756018.1 Microsporidium sp. BKES1 CAL small subunit ribosomal RNA gene, 
+partial sequence
+Length=776
+
+ Score = 344 bits (186),  Expect = 4e-90
+ Identities = 262/297 (88%), Gaps = 12/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  163  TGGCCTATCAGCTAGTCGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  222
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  223  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  282
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| |||| ||||||   | ||||
+Sbjct  283  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTAACGAAGCGTGA--CG-ATGA  338
+
+Query  177  CGGGT-GTGTAAA-AAGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             |  |   ||||| ||| | || ||||| |||||||||||||||||||||||||||||||
+Sbjct  339  -GTCTACGGTAAATAAGTAGACGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  397
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||
+Sbjct  398  GGTAATTCCAGCTCCAGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  454
+
+
+>JF826421.1 Parathelohania tomski isolate 1651 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1253
+
+ Score = 340 bits (184),  Expect = 5e-89
+ Identities = 259/294 (88%), Gaps = 9/294 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGG-GGA  59
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+Sbjct  138  TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGAGGA  197
+
+Query  60   ATATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAG  119
+             |||  ||   |||||||||||||||||||||||| |||| |||||||||||||||||||
+Sbjct  198  TTAT--GTCCGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGACGGCAG  255
+
+Query  120  CAGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-GATATGTATGACG  178
+            ||||||||||| ||||||||||| |||||||||||| ||||||||| || ||||  | ||
+Sbjct  256  CAGGCGCGAAAATTACCCAATGAGCATTGAGGTAGTGACGAGGCGTAGA-ATGTGAGTCG  314
+
+Query  179  GGTGTGTAAAA-AGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGT  236
+             | ||  || | | |  || | ||| ||||||||||||||||||||||||||||||||||
+Sbjct  315  AGAGT-AAAGATATCG-ACGAGAGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGT  372
+
+Query  237  AATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  373  AATTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  426
+
+
+>FJ756020.1 Microsporidium sp. BKES1 LAT small subunit ribosomal RNA gene, 
+partial sequence
+Length=764
+
+ Score = 339 bits (183),  Expect = 2e-88
+ Identities = 261/297 (88%), Gaps = 12/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  163  TGGCCTATCAGCTAGTCGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  222
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  223  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  282
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| |||| ||||||   | ||||
+Sbjct  283  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTAACGAAGCGTGA--CG-ATGA  338
+
+Query  177  CGGGT-GTGTAAA-AAGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             |  |   ||||| ||| | || ||||| |||||||||||||||||||||||||||||||
+Sbjct  339  -GTCTACGGTAAATAAGTAGACGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  397
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||| | ||||||||||| |||||||||||||||||||||||||||
+Sbjct  398  GGTAATTCCAGCTCCTGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  454
+
+
+>OP748373.1 Parathelohania iranica isolate Microcyclsp-1 small subunit ribosomal 
+RNA gene, partial sequence
+Length=956
+
+ Score = 333 bits (180),  Expect = 9e-87
+ Identities = 256/292 (88%), Gaps = 7/292 (2%)
+ Strand=Plus/Plus
+
+Query  2    GACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAAT  61
+            |||||||||||||||||||||| |||| ||||||||||||||||||||||||||| | ||
+Sbjct  4    GACCTATCAGCTTGTCGGTACGATAAGGGCGTACGGAGGCGATGACGGGTAACGGAGGAT  63
+
+Query  62   -ATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+             ||  || | |||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  64   GAT--GTCTGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGACGGCAGC  121
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| |||||||||||||| |||||||||||| |||||||||   ||||  |||  |
+Sbjct  122  AGGCGCGCAACTTACCCAATGAGCATTGAGGTAGTGACGAGGCGTAGGATGTGAGAC--G  179
+
+Query  181  TGTGTAAAAAGCAT-ACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||| | |   || | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  180  AGTGTAAAGAACTCGACGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  239
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  240  TTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  291
+
+
+>FJ756019.1 Microsporidium sp. BKES1 KES small subunit ribosomal RNA gene, 
+partial sequence
+Length=776
+
+ Score = 333 bits (180),  Expect = 9e-87
+ Identities = 260/297 (88%), Gaps = 12/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| ||||||||||||||||||||| |||||||| |||||||||||||||
+Sbjct  163  TGGCCTATCAGCTAGTCGGTACGGTAAGTGCGTACCGAGGCGATAACGGGTAACGGGGAA  222
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| |||||||||||||||||||| |||||||| || |||||||||||||||||
+Sbjct  223  TCGGGGTTTGATTCCGGAGAGGGAGCCTGATAGATGGCTGCCGCGTCCAAGGACGGCAGC  282
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| |||| ||||||   | ||||
+Sbjct  283  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAAGCGTGA--CG-ATGA  338
+
+Query  177  CGGGT-GTGTAAA-AAGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             |  |   ||||| ||| | || ||||| |||||||||||||||||||||||||||||||
+Sbjct  339  -GTCTACGGTAAATAAGTAGACGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  397
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||
+Sbjct  398  GGTAATTCCAGCTCCAGGAGCGTCTGTGTGTATTGCTGCGGTTAAAACGTGCGTAGT  454
+
+
+>KM277793.1 Parathelohania iranica clone AS130909 small subunit ribosomal 
+RNA gene, partial sequence
+Length=1069
+
+ Score = 333 bits (180),  Expect = 9e-87
+ Identities = 256/292 (88%), Gaps = 7/292 (2%)
+ Strand=Plus/Plus
+
+Query  2    GACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAAT  61
+            |||||||||||||||||||||| |||| ||||||||||||||||||||||||||| | ||
+Sbjct  55   GACCTATCAGCTTGTCGGTACGATAAGGGCGTACGGAGGCGATGACGGGTAACGGAGGAT  114
+
+Query  62   -ATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+             ||  || | |||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  115  GAT--GTCTGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGACGGCAGC  172
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| |||||||||||||| |||||||||||| |||||||||   ||||  |||  |
+Sbjct  173  AGGCGCGCAACTTACCCAATGAGCATTGAGGTAGTGACGAGGCGTAGGATGTGAGAC--G  230
+
+Query  181  TGTGTAAAAAGCAT-ACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||| | |   || | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  231  AGTGTAAAGAACTCGACGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  290
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  291  TTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  342
+
+
+>KC111790.1 Uncultured Microsporidium sp. clone RBS_Van12 18S ribosomal RNA 
+gene, partial sequence
+Length=657
+
+ Score = 333 bits (180),  Expect = 9e-87
+ Identities = 260/297 (88%), Gaps = 12/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| | ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  147  TGGCCTATCAGCTAGGCGGTACGGTAAGTGCGTACCGCGGCGACGACGGGTAACGGGGAA  206
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  207  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  266
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| ||||||||||| |   ||||
+Sbjct  267  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTGA-A--CATGA  322
+
+Query  177  CGGGTGTGTAAAAAGCATA-CT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             |   ||||||| ||| || || ||||| |||||||||||||||||||||||||||||||
+Sbjct  323  AGTTAGTGTAAATAGC-TAGCTGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  381
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||| |||||||||||   |||||||||||||| ||||||||||
+Sbjct  382  GGTAATTCCAGCTCCAGGAGCGTCTGTGTGCGTTGCTGCGGTTAAAGCGTGCGTAGT  438
+
+
+>OQ028681.1 Parathelohania iranica isolate 2 small subunit ribosomal RNA 
+gene, partial sequence
+Length=358
+
+ Score = 333 bits (180),  Expect = 9e-87
+ Identities = 256/292 (88%), Gaps = 7/292 (2%)
+ Strand=Plus/Plus
+
+Query  2    GACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAAT  61
+            |||||||||||||||||||||| |||| ||||||||||||||||||||||||||| | ||
+Sbjct  43   GACCTATCAGCTTGTCGGTACGATAAGGGCGTACGGAGGCGATGACGGGTAACGGAGGAT  102
+
+Query  62   -ATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+             ||  || | |||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  103  GAT--GTCTGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGACGGCAGC  160
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| |||||||||||||| |||||||||||| |||||||||   ||||  |||  |
+Sbjct  161  AGGCGCGCAACTTACCCAATGAGCATTGAGGTAGTGACGAGGCGTAGGATGTGAGAC--G  218
+
+Query  181  TGTGTAAAAAGCAT-ACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             ||||||| | |   || | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  219  AGTGTAAAGAACTCGACGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  278
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  279  TTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  330
+
+
+>JF826419.1 Novothelohania ovalae isolate 1836 small subunit ribosomal RNA 
+gene, partial sequence
+Length=1220
+
+ Score = 331 bits (179),  Expect = 3e-86
+ Identities = 257/294 (87%), Gaps = 7/294 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct  138  TGACCTATCAGCTAGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGGA  197
+
+Query  61   T-ATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAG  119
+            | ||  || | |||||||||||||||||||||||| |||| ||||||||||||| |||||
+Sbjct  198  TGAT--GTCTGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGATGGCAG  255
+
+Query  120  CAGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGG  179
+            |||||||| |||||||||||||| |||||||||||| ||||||||| || | | |||   
+Sbjct  256  CAGGCGCGGAACTTACCCAATGAGCATTGAGGTAGTGACGAGGCGT-ATTTTTGTGAGCC  314
+
+Query  180  GT-GTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGT  236
+             | |  || ||| | |  | |  || ||||||||||||||||||||||||||||||||||
+Sbjct  315  ATGGATTAGAAACCCTGGTGAGGGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGT  374
+
+Query  237  AATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||||||||||| | ||||||||||||||| | |||||||
+Sbjct  375  AATTCCAGCTCCAGTAGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  428
+
+
+>JF826420.1 Parathelohania divulgata isolate 1841 small subunit ribosomal 
+RNA gene, partial sequence
+Length=1233
+
+ Score = 329 bits (178),  Expect = 1e-85
+ Identities = 256/293 (87%), Gaps = 7/293 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |
+Sbjct  138  TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGAGGA  197
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            | |  ||   |||||||||||||||||||||||| |||| ||||||||||||||||||||
+Sbjct  198  TTTT-GTCCGATTCCGGAGAGGGAGCCTGAGAGACGGCTGCCACGTCCAAGGACGGCAGC  256
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGT-GATATGTATGACGG  179
+            |||||||||| ||||||||||| |||||||||||| ||||||||| ||| |||  | || 
+Sbjct  257  AGGCGCGAAAATTACCCAATGAGCATTGAGGTAGTGACGAGGCGTAGAT-TGTGAGTCGA  315
+
+Query  180  GTGTGTAAAA-AGCATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTA  237
+            | |   || | | |  || | ||| |||||||||||||||||||||||||||||||||||
+Sbjct  316  GAGC-AAAGATATCG-ACGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTA  373
+
+Query  238  ATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  374  ATTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  426
+
+
+>EU075357.1 Microsporidium sp. Turtle Lake 16S ribosomal RNA gene, partial 
+sequence; 16S-23S ribosomal RNA intergenic spacer, complete 
+sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1814
+
+ Score = 329 bits (178),  Expect = 1e-85
+ Identities = 260/298 (87%), Gaps = 12/298 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | |||||||||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGACGGTACGGTAAGTGCGTACTGTGGCGATGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            |||||||||| |||||||  | ||  ||   |||||||| |||||||||  |  | ||||
+Sbjct  262  AGGCGCGAAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTTTTTAG-ATGA  319
+
+Query  177  CGGGT-GTGTAAAAAGCATA-CT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  232
+             | || ||||||| ||| || || || || ||||||||||||||||||||||||||||||
+Sbjct  320  -GAGTAGTGTAAATAGC-TATCTGAAGGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  377
+
+Query  233  CGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  378  CGGTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  435
+
+
+>KF110991.1 Takaokaspora nipponicus 18S ribosomal RNA gene, partial sequence; 
+and small subunit ribosomal RNA gene, complete sequence
+Length=1261
+
+ Score = 324 bits (175),  Expect = 5e-84
+ Identities = 254/292 (87%), Gaps = 5/292 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || ||||||||||||||||||||||||| ||||||||||||||||||||||||||| | |
+Sbjct  142  TGGCCTATCAGCTTGTCGGTACGGTAAGGGCGTACGGAGGCGATGACGGGTAACGGAGGA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||  ||   ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TATTTGTCCGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||| |||||||||||| ||||||||| || | | ||  |  
+Sbjct  262  AGGCGCGAAACTTACCCAATGAGCATTGAGGTAGTGACGAGGCGT-AT-T-TGTGGGGAA  318
+
+Query  181  TGTGTAAAAAG-CATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             | || ||  |   | | | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  319  AGAGTGAAGTGTTTTCCGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  378
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  379  TTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  430
+
+
+>AY090065.1 Parathelohania obesa isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1263
+
+ Score = 324 bits (175),  Expect = 5e-84
+ Identities = 254/292 (87%), Gaps = 5/292 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            |||||||| || ||||||||||||||||||||||||||| |||||| ||||||||||| |
+Sbjct  156  TGACCTATTAGTTTGTCGGTACGGTAAGTGCGTACGGAGACGATGATGGGTAACGGGGGA  215
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||  ||   ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  216  TAT-AGTCCGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  274
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| ||||||||||||||  ||||||||||| ||||||||| |   || ||| |  
+Sbjct  275  AGGCGCGCAACTTACCCAATGAGGATTGAGGTAGTGACGAGGCGT-A-GGGTGTGAAGTA  332
+
+Query  181  TGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             | ||||| | | || | | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  333  AGAGTAAAGAACTTATTGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  392
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  393  TTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  444
+
+
+>KF110990.1 Takaokaspora nipponicus 18S ribosomal RNA gene, partial sequence
+Length=1276
+
+ Score = 324 bits (175),  Expect = 5e-84
+ Identities = 254/292 (87%), Gaps = 5/292 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || ||||||||||||||||||||||||| ||||||||||||||||||||||||||| | |
+Sbjct  155  TGGCCTATCAGCTTGTCGGTACGGTAAGGGCGTACGGAGGCGATGACGGGTAACGGAGGA  214
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |||  ||   ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  215  TATTTGTCCGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  274
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            |||||||||||||||||||||| |||||||||||| ||||||||| || | | ||  |  
+Sbjct  275  AGGCGCGAAACTTACCCAATGAGCATTGAGGTAGTGACGAGGCGT-AT-T-TGTGGGGAA  331
+
+Query  181  TGTGTAAAAAG-CATACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             | || ||  |   | | | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  332  AGAGTGAAGTGTTTTCCGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  391
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||||||||| | ||||||||||||||| | |||||||
+Sbjct  392  TTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  443
+
+
+>MH645034.1 Conglomerata obtusa isolate DHM small subunit ribosomal RNA gene, 
+partial sequence; internal transcribed spacer 1, complete 
+sequence; and large subunit ribosomal RNA gene, partial sequence
+Length=1453
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  262  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>EU075348.1 Microsporidium sp. Fribourg 16S ribosomal RNA gene, partial sequence; 
+16S-23S ribosomal RNA intergenic spacer, complete sequence; 
+and 23S ribosomal RNA gene, partial sequence
+Length=1790
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  262  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>AY090066.1 Hazardia sp. isolate 1 small subunit ribosomal RNA gene, partial 
+sequence
+Length=1308
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| | ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  165  TGGCCTATCAGCTAGGCGGTACGGTAAGTGCGTACCGCGGCGACGACGGGTAACGGGGAA  224
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  225  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  284
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| ||||||||||| |   ||||
+Sbjct  285  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTGA-A-CCATGA  341
+
+Query  177  CGGGTGTGTAAAAAGCAT-ACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+             |   ||| ||| |||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  342  GGCCAGTGCAAACAGCTGGCCGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  401
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| |||||||||||   |||||||||||||||||||||||||
+Sbjct  402  GTAATTCCAGCTCCAGGAGCGTCTGTGTGCGTTGCTGCGGTTAAAACGTGCGTAGT  457
+
+
+>FJ794860.1 Microsporidium sp. MIC1 strain MIC1_ZLU01 16S ribosomal RNA gene 
+and 16S-23S ribosomal RNA intergenic spacer, complete sequence; 
+and 23S ribosomal RNA gene, partial sequence
+ FJ794862.1 Microsporidium sp. MIC1 strain MIC1_STA01 16S ribosomal RNA gene 
+and 16S-23S ribosomal RNA intergenic spacer, complete sequence; 
+and 23S ribosomal RNA gene, partial sequence
+Length=1507
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| || |||||||  | ||  ||   |||||||| |||||||||  |||  ||||
+Sbjct  264  AGGCGCGGAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TATTAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+              |  |||||||||||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAGCAGTGTAAAAAGCTGTTTGAAAGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>EU075350.1 Microsporidium sp. Angskar 21 16S ribosomal RNA gene, partial 
+sequence; 16S-23S ribosomal RNA intergenic spacer, complete 
+sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1790
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  262  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>FJ763529.1 Berwaldia sp. JJW-2009a strain BERW_AMM01 16S ribosomal RNA gene, 
+partial sequence
+Length=1168
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>FJ794856.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 1 16S ribosomal 
+RNA gene, partial sequence
+Length=1168
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>MK053815.1 Pseudoberwaldia daphniae isolate Jachym2 small subunit ribosomal 
+RNA gene, partial sequence
+Length=728
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  54   TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAACGGGGAA  113
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  114  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  173
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| || |||||||  | ||  ||   |||||||| |||||||||  |||  ||||
+Sbjct  174  AGGCGCGGAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TATTAATGA  230
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+              |  |||||||||||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  231  GAGCAGTGTAAAAAGCTGTTTGAAAGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  290
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  291  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  346
+
+
+>AF394527.1 Larssonia obtusa isolate BR-39 16S small subunit ribosomal RNA 
+gene and internal transcribed spacer, complete sequence; and 
+large subunit ribosomal RNA gene, partial sequence
+Length=1831
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  164  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  223
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  224  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  283
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  284  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  340
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  341  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  400
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  401  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  456
+
+
+>MH645035.1 Conglomerata obtusa isolate DM348 small subunit ribosomal RNA 
+gene and internal transcribed spacer, partial sequence
+Length=1329
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  262  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>EU075352.1 Microsporidium sp. Angskars-klubben 126 16S ribosomal RNA gene, 
+partial sequence; 16S-23S ribosomal RNA intergenic spacer, 
+complete sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1793
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAACGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| || |||||||  | ||  ||   |||||||| |||||||||  |||  ||||
+Sbjct  262  AGGCGCGGAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TATTAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+              |  |||||||||||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAGCAGTGTAAAAAGCTGTTTGAAAGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>FJ794858.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 2 16S ribosomal 
+RNA gene, partial sequence
+Length=1168
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>FJ794861.1 Microsporidium sp. MIC1 strain MIC1_SEC01 16S ribosomal RNA gene 
+and 16S-23S ribosomal RNA intergenic spacer, complete sequence; 
+and 23S ribosomal RNA gene, partial sequence
+ FJ794863.1 Microsporidium sp. MIC1 strain MIC1_BRN01 16S ribosomal RNA gene 
+and 16S-23S ribosomal RNA intergenic spacer, complete sequence; 
+and 23S ribosomal RNA gene, partial sequence
+Length=1507
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAACGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| || |||||||  | ||  ||   |||||||| |||||||||  |||  ||||
+Sbjct  264  AGGCGCGGAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TATTAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+              |  |||||||||||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAGCAGTGTAAAAAGCTGTTTGAAAGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>FJ763524.1 Berwaldia sp. JJW-2009a strain BERW_RIM01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763525.1 Berwaldia sp. JJW-2009a strain BERW_STA01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763526.1 Berwaldia sp. JJW-2009a strain BERW_Vir01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763527.1 Berwaldia sp. JJW-2009a strain BERW_ZEL01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763528.1 Berwaldia sp. JJW-2009a strain BERW_HOR01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763530.1 Berwaldia sp. JJW-2009a strain BERW_PIL01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763531.1 Berwaldia sp. JJW-2009a strain BERW_WOR01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763532.1 Berwaldia sp. JJW-2009a strain BERW_WAL01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763533.1 Berwaldia sp. JJW-2009a strain BERW_SAN01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763534.1 Berwaldia sp. JJW-2009a strain BERW_SEC01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763535.1 Berwaldia sp. JJW-2009a strain BERW_TRN01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763536.1 Berwaldia sp. JJW-2009a strain BERW_VRA01 16S ribosomal RNA gene, 
+partial sequence
+ FJ763537.1 Berwaldia sp. JJW-2009a strain BERW_ZLU01 16S ribosomal RNA gene, 
+partial sequence
+Length=1168
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>EU075349.1 Microsporidium sp. Angskar 16 16S ribosomal RNA gene, partial 
+sequence; 16S-23S ribosomal RNA intergenic spacer, complete 
+sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1790
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  262  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>FJ794857.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 4 16S ribosomal 
+RNA gene, partial sequence
+Length=1168
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>FJ763539.1 Berwaldia sp. JJW-2009a strain BERW_STA02+03 clone 2 16S ribosomal 
+RNA gene, partial sequence
+Length=1168
+
+ Score = 322 bits (174),  Expect = 2e-83
+ Identities = 257/296 (87%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>EU075356.1 Microsporidium sp. Ripley Pond II 16S ribosomal RNA gene, partial 
+sequence; 16S-23S ribosomal RNA intergenic spacer, complete 
+sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1813
+
+ Score = 318 bits (172),  Expect = 2e-82
+ Identities = 258/298 (87%), Gaps = 12/298 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||| ||| ||||||||||||||||||| | |||||||||||||| |||||||
+Sbjct  142  TGGCCTATCAGTTTGACGGTACGGTAAGTGCGTACTGTGGCGATGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            |||||||||| |||||||  | ||  ||   |||||||| |||||||||  |  | ||||
+Sbjct  262  AGGCGCGAAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTTTTTAG-ATGA  319
+
+Query  177  CGGGT-GTGTAAAAAGCATA-CT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  232
+             | || ||||||| ||| ||  | || || ||||||||||||||||||||||||||||||
+Sbjct  320  -GAGTAGTGTAAATAGC-TATTTGAAGGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  377
+
+Query  233  CGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  378  CGGTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  435
+
+
+>EU075354.1 Microsporidium sp. Lulu Lake 16S ribosomal RNA gene, partial 
+sequence; 16S-23S ribosomal RNA intergenic spacer, complete 
+sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1788
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 256/296 (86%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||| ||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCATGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  262  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>KC111791.1 Uncultured Microsporidium sp. clone RBS_Van13 18S ribosomal RNA 
+gene, partial sequence
+Length=656
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 258/298 (87%), Gaps = 14/298 (5%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| |||||||||||| |||||| ||||||| |||||||||||| |||
+Sbjct  146  TGGCCTATCAGCTTGACGGTACGGTAAGGGCGTACCGAGGCGACGACGGGTAACGGAGAA  205
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| |||||||||||| ||||||||| |||||||||||||||||||||||||||
+Sbjct  206  TCGGGGTTTGATTCCGGAGAGGAAGCCTGAGAAATGGCTACCACGTCCAAGGACGGCAGC  265
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| || |||||||  | ||  ||   |||||||||| |||||||| ||   ||||
+Sbjct  266  AGGCGCGGAAATTACCCACTTGGAGGACCA-GAGGTAGTTATGAGGCGTG-TA--AATGA  321
+
+Query  177  CGGGT-GTGTAAAAAGCAT-A-CTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  232
+             || | | |  |||||| | | | ||||| ||||||||||||||||||||||||||||||
+Sbjct  322  -GGTTAGAG-CAAAAGCCTAACCGAAAGCTACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  379
+
+Query  233  CGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||| ||||||||||| | |||||||||||||||||||||||||
+Sbjct  380  CGGTAATTCCAGCTCCAGAAGCGTCTGTGTGTGTTGCTGCGGTTAAAACGTGCGTAGT  437
+
+
+>AY090042.1 Berwaldia schaefernai isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1290
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 256/296 (86%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  161  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  220
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  221  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  280
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  281  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  337
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| |||| |||||||||||||||||||||||||||
+Sbjct  338  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGAAGGGCAAGTCTGGTGCCAGCAGCCGCG  397
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  398  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  453
+
+
+>FJ794859.1 Berwaldia sp. JJW-2009a strain BERW_SEC02 clone 3 16S ribosomal 
+RNA gene, partial sequence
+Length=1168
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 256/296 (86%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCAAT-G-A--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| |||||||||| | | |  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTT-T-TGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| |||||||||||||||||||||| |||||||||
+Sbjct  321  GAACAGTGTAAAAAGCTGATTGAAAGCTACTGGAGGGCAAGTCTGGTGCCGGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>FJ763538.1 Berwaldia sp. JJW-2009a strain BERW_STA02+03 clone 1 16S ribosomal 
+RNA gene, partial sequence
+Length=1168
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 256/296 (86%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| |||||||| |||||||
+Sbjct  144  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAGCGGGGAA  203
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  204  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  263
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| ||||||||||  | ||  ||   |||||||| |||||||||  | || ||||
+Sbjct  264  AGGCGCGGAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TTTGAATGA  320
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+                 |||||||||||  | | ||||| || |||||||||||||||||||||||||||||
+Sbjct  321  TAACAGTGTAAAAAGCTGATTGAAAGCTACCGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  380
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  381  GTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  436
+
+
+>EU075351.1 Microsporidium sp. Angskars-klubben 115/117 16S ribosomal RNA 
+gene, partial sequence; 16S-23S ribosomal RNA intergenic spacer, 
+complete sequence; and 23S ribosomal RNA gene, partial 
+sequence
+Length=1793
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 256/296 (86%), Gaps = 9/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||||| ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  142  TGGCCTATCAGCTTGGCGGTACGGTAAGTGCGTACCGTGGCGACGACGGGTAACGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||| || |||||||  | ||  ||   |||||||| |||||||||  |||  ||||
+Sbjct  262  AGGCGCGGAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGT--TATTAATGA  318
+
+Query  177  CGGGTGTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+              |  |||||||||||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  319  GAGCAGTGTAAAAAGCTGTTTGAAAGCAACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  378
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||||||  |||||||||| | ||||||||||||||  |||||||||
+Sbjct  379  GTAATTCCAGCTCCAGGGGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  434
+
+
+>AY090067.1 Hazardia milleri isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1292
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 256/296 (86%), Gaps = 10/296 (3%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| | ||||||||||||||||||| | ||||| ||||||||||||||||
+Sbjct  164  TGGCCTATCAGCTAGGCGGTACGGTAAGTGCGTACCGCGGCGACGACGGGTAACGGGGAA  223
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  224  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  283
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            ||||||||||||||||||  | ||  ||   |||||||| ||||||||||| |   ||||
+Sbjct  284  AGGCGCGAAACTTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTGA-A--CATGA  339
+
+Query  177  CGGGTGTGTAAAAAGCAT-ACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  234
+             |   ||| ||| |||    | ||||| ||||||||||||||||||||||||||||||||
+Sbjct  340  GGTCAGTGCAAATAGCTGGCCGAAAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCG  399
+
+Query  235  GTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||| |||||||||||   |||||||||||||| ||||||||||
+Sbjct  400  GTAATTCCAGCTCCAGGAGCGTCTGTGTGCGTTGCTGCGGTTAAAGCGTGCGTAGT  455
+
+
+>AY090041.1 Marssoniella elegans isolate 1 small subunit ribosomal RNA gene, 
+partial sequence
+Length=1283
+
+ Score = 316 bits (171),  Expect = 9e-82
+ Identities = 257/297 (87%), Gaps = 11/297 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||||| | ||||||||||||||||||| | ||||||||||||||||||||||
+Sbjct  154  TGGCCTATCAGCTAGACGGTACGGTAAGTGCGTACCGTGGCGATGACGGGTAACGGGGAA  213
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| |||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  214  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGGCGGCAGC  273
+
+Query  121  AGGCGCGAAACTTACCCAAT-G-A--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            |||||||||||||||||| | | |  ||   |||||||| |||||| || | ||  ||||
+Sbjct  274  AGGCGCGAAACTTACCCATTTGGAGGACCA-GAGGTAGTGACGAGGTGT-A-ATTAATGA  330
+
+Query  177  CGGGT-GTGTAAAAAGCATACT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGC  233
+             || | || ||||||||  ||  ||||| ||| |||||||||||||||||||||||||||
+Sbjct  331  -GGATAGTTTAAAAAGCTAACCGAAAGCAACTAGAGGGCAAGTCTGGTGCCAGCAGCCGC  389
+
+Query  234  GGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||| || ||||||||||| | ||| ||||||||||| | |||||||
+Sbjct  390  GGTAATTCCAGCTCTAGGAGCGTCTGTGTGTGTTGTTGCGGTTAAAAAGCGCGTAGT  446
+
+
+>EU075355.1 Microsporidium sp. Ripley Pond I 16S ribosomal RNA gene, partial 
+sequence; 16S-23S ribosomal RNA intergenic spacer, complete 
+sequence; and 23S ribosomal RNA gene, partial sequence
+Length=1813
+
+ Score = 313 bits (169),  Expect = 1e-80
+ Identities = 257/298 (86%), Gaps = 12/298 (4%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            || |||||||| ||| ||||||||||||||||||| | |||||||||||||| |||||||
+Sbjct  142  TGGCCTATCAGTTTGACGGTACGGTAAGTGCGTACTGTGGCGATGACGGGTAGCGGGGAA  201
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |  |||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  202  TCGGGGTTTGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  261
+
+Query  121  AGGCGCGAAACTTACCCA-AT-GA--ACATTGAGGTAGTTACGAGGCGTGATATGTATGA  176
+            |||||||||| |||||||  | ||  ||   |||||||| |||||||||  |  | ||||
+Sbjct  262  AGGCGCGAAAATTACCCACTTGGAGGACCA-GAGGTAGTGACGAGGCGTTTTTAG-ATGA  319
+
+Query  177  CGGGT-GTGTAAAAAGCATA-CT-AAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCG  232
+             | || ||||||| ||| ||  | || || ||||||||||| ||||||||||||||||||
+Sbjct  320  -GAGTAGTGTAAATAGC-TATTTGAAGGCAACTGGAGGGCAGGTCTGGTGCCAGCAGCCG  377
+
+Query  233  CGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||||||| ||||||||||| | ||||||||||||||  |||||||||
+Sbjct  378  CGGTAATTCCAGCTCCAGGAGCGTCTGTGTGTGTTGCTGCGGTTAAAGAGTGCGTAGT  435
+
+
+>AF027682.1 Parathelohania anophelis small subunit ribosomal RNA gene, complete 
+sequence
+Length=1287
+
+ Score = 313 bits (169),  Expect = 1e-80
+ Identities = 252/292 (86%), Gaps = 5/292 (2%)
+ Strand=Plus/Plus
+
+Query  1    TGACCTATCAGCTTGTCGGTACGGTAAGTGCGTACGGAGGCGATGACGGGTAACGGGGAA  60
+            |||||||| || ||||||||||||||||||||||||||| |||||| ||||||||||| |
+Sbjct  156  TGACCTATTAGTTTGTCGGTACGGTAAGTGCGTACGGAGACGATGATGGGTAACGGGGGA  215
+
+Query  61   TATGGGTTTTATTCCGGAGAGGGAGCCTGAGAGATGGCTACCACGTCCAAGGACGGCAGC  120
+            |    ||   ||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  216  T-CAAGTCCGATTCCGGAGAGGGAGCCTGAGAGATGGCTGCCACGTCCAAGGACGGCAGC  274
+
+Query  121  AGGCGCGAAACTTACCCAATGAACATTGAGGTAGTTACGAGGCGTGATATGTATGACGGG  180
+            ||||||| ||||||||||||||  ||||||||||| ||||||||| | || | |||   |
+Sbjct  275  AGGCGCGCAACTTACCCAATGAGGATTGAGGTAGTGACGAGGCGT-AGAT-TGTGAGTTG  332
+
+Query  181  TGTGTAAAAAGCAT-ACTAAAGC-ACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  238
+             | ||||| | | | || | ||| ||||||||||||||||||||||||||||||||||||
+Sbjct  333  AGAGTAAAGAACTTAACGAGAGCGACTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAA  392
+
+Query  239  TTCCAGCTCCAGTAGCGTCTGTGTTTATTGCTGCGGTTAAAACGTGCGTAGT  290
+            ||||||||||||  |||| ||||| | ||||||||||||||| | |||||||
+Sbjct  393  TTCCAGCTCCAGGGGCGTATGTGTGTGTTGCTGCGGTTAAAAAGCGCGTAGT  444
+
+
+>PQ556277.1 Microsporidium sp. voucher 1M Dthali-Mis small subunit ribosomal 
+RNA gene, partial sequence
+Length=938
+
+ Score = 309 bits (167),  Expect = 1e-79
+ Identities = 233/264 (88%), Gaps = 7/264 (3%)
+ Strand=Plus/Plus
+
+Query  30   GCGTACGGAGGCGATGACGGGTAACGGGGAAT-ATGGGTTTTATTCCGGAGAGGGAGCCT  88
+            ||||||||||||||||||||||||||| | || ||  || | ||||||||||||||||||
+Sbjct  3    GCGTACGGAGGCGATGACGGGTAACGGAGGATGAT--GTCTGATTCCGGAGAGGGAGCCT  60
+
+Query  89   GAGAGATGGCTACCACGTCCAAGGACGGCAGCAGGCGCGAAACTTACCCAATGAACATTG  148
+            ||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||
+Sbjct  61   GAGAGATGGCTGCCACGTCCAAGGACGGCAGCAGGCGCGAAACTTACCCAATGAGCATTG  120
+
+Query  149  AGGTAGTTACGAGGCGTGATATGTATGACGGGTGTGTAAAAAGCAT-ACTAAAGC-ACTG  206
+            ||||||| ||||||||| ||||||  |||  | | ||||| | |   || | ||| ||||
+Sbjct  121  AGGTAGTGACGAGGCGTAATATGTGAGAC--GAGAGTAAAGAACTCGACGAGAGCGACTG  178
+
+Query  207  GAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAGTAGCGTCTGTGTTTAT  266
+            ||||||||||||||||||||||||||||||||||||||||||||  |||||||||| | |
+Sbjct  179  GAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAGGGGCGTCTGTGTGTGT  238
+
+Query  267  TGCTGCGGTTAAAACGTGCGTAGT  290
+            |||||||||||||| | |||||||
+Sbjct  239  TGCTGCGGTTAAAAAGCGCGTAGT  262
+
+
+  Database: Core nucleotide BLAST database
+    Posted date:  Apr 11, 2025  11:24 PM
+  Number of letters in database: 844,682,098,069
+  Number of sequences in database:  113,380,701
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 113380701
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 0.05: 20987
+Number of HSP's better than 0.05 without gapping: 0
+Number of HSP's gapped: 22687
+Number of HSP's successfully gapped: 22687
+Length of query: 290
+Length of database: 844682098069
+Length adjustment: 35
+Effective length of query: 255
+Effective length of database: 840713773534
+Effective search space: 214382012251170
+Effective search space used: 214382012251170
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 28 (52.8 bits)
+
+

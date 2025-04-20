@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <bool name="zkConnected">true</bool>
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+  <lst name="params">
+    <str name="q">(text:*gregarina* AND project_s:wgs) AND ( state_s:live OR state_s:suppressed OR state_s:dead OR state_s:replaced OR state_s:unverified )</str>
+    <str name="trusted">0</str>
+    <str name="wt">xml</str>
+  </lst>
+</lst>
+<result name="response" numFound="7" start="0" numFoundExact="true">
+  <doc>
+    <str name="id">AFNH01</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">AFNH01</str>
+    <long name="version_l">1</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">replaced</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA59799</str>
+    <date name="update_date_dt">2011-06-27T00:00:00Z</date>
+    <date name="create_date_dt">2011-06-27T00:00:00Z</date>
+    <date name="last_update_dt">2018-05-01T16:32:00Z</date>
+    <str name="seqid_s">AFNH00000000</str>
+    <str name="gi_s">338246341</str>
+    <long name="taxid_l">110365</long>
+    <str name="organism_an">Gregarina niphandrodes</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>35087</long>
+      <long>35088</long>
+      <long>35089</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Eugregarinorida</str>
+      <str>Gregarinidae</str>
+      <str>Gregarina</str>
+    </arr>
+    <str name="lineages_s">,2759,33630,5794,1280412,35086,35087,35088,35089,110365,</str>
+    <arr name="keyword_ss">
+      <str>WGS</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+    </arr>
+    <long name="contigs_count_l">3680</long>
+    <long name="contigs_proteins_count_l">0</long>
+    <long name="contigs_min_length_l">93</long>
+    <long name="contigs_max_length_l">77023</long>
+    <long name="contigs_total_length_l">15362869</long>
+    <str name="contigs_annotated_s">No</str>
+    <long name="scaffolds_count_l">0</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">0</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <str name="dev_stage_s">cysts</str>
+    <str name="host_s">Tenebrio molitor</str>
+    <str name="isolation_source_s">wild beetles</str>
+    <arr name="other_src_ss">
+      <str>dev_stage: cysts</str>
+      <str>host: Tenebrio molitor</str>
+      <str>isolation_source: wild beetles</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1807585034146676741</long></doc>
+  <doc>
+    <str name="id">ABJQ01</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">ABJQ01</str>
+    <long name="version_l">1</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">live</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA27765</str>
+    <date name="update_date_dt">2014-08-06T00:00:00Z</date>
+    <date name="create_date_dt">2010-01-28T00:00:00Z</date>
+    <date name="last_update_dt">2017-11-18T15:21:00Z</date>
+    <str name="seqid_s">ABJQ00000000</str>
+    <str name="gi_s">284819907</str>
+    <long name="taxid_l">158379</long>
+    <str name="organism_an">Ascogregarina taiwanensis</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>35087</long>
+      <long>158377</long>
+      <long>158378</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Eugregarinorida</str>
+      <str>Lecudinidae</str>
+      <str>Ascogregarina</str>
+    </arr>
+    <str name="lineages_s">,2759,33630,5794,1280412,35086,35087,158377,158378,158379,</str>
+    <arr name="biosample_ss">
+      <str>SAMN02953717</str>
+    </arr>
+    <arr name="keyword_ss">
+      <str>WGS</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+    </arr>
+    <long name="contigs_count_l">5379</long>
+    <long name="contigs_proteins_count_l">0</long>
+    <long name="contigs_min_length_l">200</long>
+    <long name="contigs_max_length_l">11727</long>
+    <long name="contigs_total_length_l">6149411</long>
+    <str name="contigs_annotated_s">Yes</str>
+    <long name="scaffolds_count_l">0</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">0</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <str name="dev_stage_s">oocyst</str>
+    <str name="host_s">Aedes albopictus</str>
+    <str name="isolate_s">Tauyuan-1</str>
+    <str name="isolation_source_s">larvae of Aedes albopictus (Asian tiger mosquito)</str>
+    <arr name="other_src_ss">
+      <str>dev_stage: oocyst</str>
+      <str>host: Aedes albopictus</str>
+      <str>isolation_source: larvae of Aedes albopictus (Asian tiger mosquito)</str>
+    </arr>
+    <arr name="infra_name_ss">
+      <str>isolate: Tauyuan-1</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1807585026597978122</long></doc>
+  <doc>
+    <str name="id">JAHYSE01</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">JAHYSE01</str>
+    <long name="version_l">1</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">live</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA734792</str>
+    <date name="update_date_dt">2022-07-11T00:00:00Z</date>
+    <date name="create_date_dt">2021-09-14T00:00:00Z</date>
+    <date name="last_update_dt">2024-07-31T19:39:25.450Z</date>
+    <str name="seqid_s">JAHYSE000000000</str>
+    <str name="gi_s">2094642169</str>
+    <long name="taxid_l">2853593</long>
+    <str name="organism_an">Porospora cf. gigantea A</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>2698737</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>35087</long>
+      <long>947094</long>
+      <long>947096</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Sar</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Eugregarinorida</str>
+      <str>Porosporidae</str>
+      <str>Porospora</str>
+    </arr>
+    <str name="lineages_s">,2759,2698737,33630,5794,1280412,35086,35087,947094,947096,2853593,</str>
+    <arr name="biosample_ss">
+      <str>SAMN19872688</str>
+    </arr>
+    <arr name="keyword_ss">
+      <str>WGS; MAG</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+      <str>MAG</str>
+    </arr>
+    <long name="contigs_count_l">787</long>
+    <long name="contigs_proteins_count_l">8895</long>
+    <long name="contigs_min_length_l">1000</long>
+    <long name="contigs_max_length_l">148957</long>
+    <long name="contigs_total_length_l">8812657</long>
+    <str name="contigs_annotated_s">Yes</str>
+    <long name="scaffolds_count_l">0</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">0</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <str name="host_s">Homarus gammarus</str>
+    <str name="isolate_s">A</str>
+    <str name="isolation_source_s">Roscoff Lobster tank and facility Roscoff bay</str>
+    <str name="metagenome_source_s">symbiont metagenome</str>
+    <arr name="other_src_ss">
+      <str>host: Homarus gammarus</str>
+      <str>isolation_source: Roscoff Lobster tank and facility Roscoff bay</str>
+      <str>metagenome_source: symbiont metagenome</str>
+    </arr>
+    <arr name="infra_name_ss">
+      <str>isolate: A</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1807588742135808001</long></doc>
+  <doc>
+    <str name="id">JAQIFP01</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">JAQIFP01</str>
+    <long name="version_l">1</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">live</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA906508</str>
+    <date name="update_date_dt">2023-05-31T00:00:00Z</date>
+    <date name="create_date_dt">2023-05-31T00:00:00Z</date>
+    <date name="last_update_dt">2023-05-31T10:55:39.763Z</date>
+    <str name="seqid_s">JAQIFP000000000</str>
+    <str name="gi_s">2512353238</str>
+    <long name="taxid_l">110372</long>
+    <str name="organism_an">Ophryocystis elektroscirrha</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>2698737</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>238088</long>
+      <long>110370</long>
+      <long>110371</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Sar</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Neogregarinorida</str>
+      <str>Ophryocystidae</str>
+      <str>Ophryocystis</str>
+    </arr>
+    <str name="lineages_s">,2759,2698737,33630,5794,1280412,35086,238088,110370,110371,110372,</str>
+    <arr name="biosample_ss">
+      <str>SAMN31926794</str>
+    </arr>
+    <arr name="keyword_ss">
+      <str>WGS</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+    </arr>
+    <long name="contigs_count_l">155</long>
+    <long name="contigs_proteins_count_l">0</long>
+    <long name="contigs_min_length_l">2781</long>
+    <long name="contigs_max_length_l">423541</long>
+    <long name="contigs_total_length_l">8598435</long>
+    <str name="contigs_annotated_s">No</str>
+    <long name="scaffolds_count_l">0</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">0</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <str name="host_s">Danaus plexippus</str>
+    <str name="isolate_s">DRL_2022a</str>
+    <str name="isolation_source_s">whole body</str>
+    <arr name="other_src_ss">
+      <str>host: Danaus plexippus</str>
+      <str>isolation_source: whole body</str>
+    </arr>
+    <arr name="infra_name_ss">
+      <str>isolate: DRL_2022a</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1807587028265598979</long></doc>
+  <doc>
+    <str name="id">AFNH02</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">AFNH02</str>
+    <long name="version_l">2</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">live</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA59799</str>
+    <date name="update_date_dt">2022-03-15T00:00:00Z</date>
+    <date name="create_date_dt">2012-03-29T00:00:00Z</date>
+    <date name="last_update_dt">2022-03-15T13:57:06.843Z</date>
+    <str name="seqid_s">AFNH00000000</str>
+    <str name="gi_s">381423459</str>
+    <long name="taxid_l">110365</long>
+    <str name="organism_an">Gregarina niphandrodes</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>2698737</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>35087</long>
+      <long>35088</long>
+      <long>35089</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Sar</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Eugregarinorida</str>
+      <str>Gregarinidae</str>
+      <str>Gregarina</str>
+    </arr>
+    <str name="lineages_s">,2759,2698737,33630,5794,1280412,35086,35087,35088,35089,110365,</str>
+    <arr name="biosample_ss">
+      <str>SAMN01120375</str>
+    </arr>
+    <arr name="keyword_ss">
+      <str>WGS</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+    </arr>
+    <long name="contigs_count_l">2679</long>
+    <long name="contigs_proteins_count_l">6375</long>
+    <long name="contigs_min_length_l">211</long>
+    <long name="contigs_max_length_l">95602</long>
+    <long name="contigs_total_length_l">13637929</long>
+    <str name="contigs_annotated_s">Yes</str>
+    <long name="scaffolds_count_l">469</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">14009070</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <arr name="scaffolds_range_ss">
+      <str>KK211454-KK211922</str>
+    </arr>
+    <str name="dev_stage_s">cysts</str>
+    <str name="host_s">Tenebrio molitor</str>
+    <str name="isolation_source_s">wild beetles</str>
+    <arr name="other_src_ss">
+      <str>dev_stage: cysts</str>
+      <str>host: Tenebrio molitor</str>
+      <str>isolation_source: wild beetles</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1807586578263965698</long></doc>
+  <doc>
+    <str name="id">JAHYSF01</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">JAHYSF01</str>
+    <long name="version_l">1</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">live</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA734792</str>
+    <date name="update_date_dt">2024-08-16T00:00:00Z</date>
+    <date name="create_date_dt">2021-09-14T00:00:00Z</date>
+    <date name="last_update_dt">2024-08-16T16:51:10.467Z</date>
+    <str name="seqid_s">JAHYSF000000000</str>
+    <str name="gi_s">2094643179</str>
+    <long name="taxid_l">2853592</long>
+    <str name="organism_an">Porospora cf. gigantea B</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>2698737</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>35087</long>
+      <long>947094</long>
+      <long>947096</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Sar</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Eugregarinorida</str>
+      <str>Porosporidae</str>
+      <str>Porospora</str>
+    </arr>
+    <str name="lineages_s">,2759,2698737,33630,5794,1280412,35086,35087,947094,947096,2853592,</str>
+    <arr name="biosample_ss">
+      <str>SAMN19872687</str>
+    </arr>
+    <arr name="keyword_ss">
+      <str>WGS; MAG</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+      <str>MAG</str>
+    </arr>
+    <long name="contigs_count_l">918</long>
+    <long name="contigs_proteins_count_l">9003</long>
+    <long name="contigs_min_length_l">992</long>
+    <long name="contigs_max_length_l">148095</long>
+    <long name="contigs_total_length_l">9054784</long>
+    <str name="contigs_annotated_s">Yes</str>
+    <long name="scaffolds_count_l">0</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">0</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <str name="host_s">Homarus gammarus</str>
+    <str name="isolate_s">B</str>
+    <str name="isolation_source_s">Roscoff Lobster tank and facility Roscoff bay</str>
+    <str name="metagenome_source_s">symbiont metagenome</str>
+    <arr name="other_src_ss">
+      <str>host: Homarus gammarus</str>
+      <str>isolation_source: Roscoff Lobster tank and facility Roscoff bay</str>
+      <str>metagenome_source: symbiont metagenome</str>
+    </arr>
+    <arr name="infra_name_ss">
+      <str>isolate: B</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1807588757155610625</long></doc>
+  <doc>
+    <str name="id">JBLWGC01</str>
+    <str name="project_s">WGS</str>
+    <str name="prefix_s">JBLWGC01</str>
+    <long name="version_l">1</long>
+    <str name="div_s">INV</str>
+    <str name="state_s">live</str>
+    <str name="vdb_only_s">No</str>
+    <str name="src_db_s">GenBank</str>
+    <str name="bioproject_s">PRJNA1225920</str>
+    <date name="update_date_dt">2025-03-21T00:00:00Z</date>
+    <date name="create_date_dt">2025-03-21T00:00:00Z</date>
+    <date name="last_update_dt">2025-03-21T14:53:55.267Z</date>
+    <str name="seqid_s">JBLWGC000000000</str>
+    <str name="gi_s">2937393332</str>
+    <long name="taxid_l">3401061</long>
+    <str name="organism_an">Leidyana gryllorum</str>
+    <arr name="lineage_taxid_ls">
+      <long>2759</long>
+      <long>2698737</long>
+      <long>33630</long>
+      <long>5794</long>
+      <long>1280412</long>
+      <long>35086</long>
+      <long>35087</long>
+      <long>196591</long>
+      <long>196592</long>
+    </arr>
+    <arr name="lineage_name_ss">
+      <str>Eukaryota</str>
+      <str>Sar</str>
+      <str>Alveolata</str>
+      <str>Apicomplexa</str>
+      <str>Conoidasida</str>
+      <str>Gregarinasina</str>
+      <str>Eugregarinorida</str>
+      <str>Leidyanidae</str>
+      <str>Leidyana</str>
+    </arr>
+    <str name="lineages_s">,2759,2698737,33630,5794,1280412,35086,35087,196591,196592,3401061,</str>
+    <arr name="biosample_ss">
+      <str>SAMN46910021</str>
+    </arr>
+    <arr name="keyword_ss">
+      <str>WGS</str>
+    </arr>
+    <arr name="keyword_part_ss">
+      <str>WGS</str>
+    </arr>
+    <long name="contigs_count_l">237</long>
+    <long name="contigs_proteins_count_l">0</long>
+    <long name="contigs_min_length_l">506</long>
+    <long name="contigs_max_length_l">1726050</long>
+    <long name="contigs_total_length_l">15504140</long>
+    <str name="contigs_annotated_s">No</str>
+    <long name="scaffolds_count_l">0</long>
+    <long name="scaffolds_proteins_count_l">0</long>
+    <long name="scaffolds_total_length_l">0</long>
+    <str name="scaffolds_annotated_s">No</str>
+    <str name="host_s">Acheta domesticus</str>
+    <str name="isolation_source_s">feces</str>
+    <str name="strain_s">EB-2025a</str>
+    <arr name="other_src_ss">
+      <str>host: Acheta domesticus</str>
+      <str>isolation_source: feces</str>
+    </arr>
+    <arr name="infra_name_ss">
+      <str>strain: EB-2025a</str>
+    </arr>
+    <str name="cluster_s"/>
+    <str name="gap_study_s"/>
+    <str name="consent_group_s"/>
+    <str name="targeted_locus_name_s"/>
+    <long name="_version_">1827233859007152129</long></doc>
+</result>
+</response>
