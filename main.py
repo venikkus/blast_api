@@ -355,7 +355,7 @@ def extract_prefix_organism_pairs(xml_text):
     return results
 
 
-def filter_valid_wgs_ids(prefixes):
+def filter_valid_wgs_ids(prefixes, batch_size=50):
     """
     Verifies WGS prefix validity through getDBInfo.cgi.
 
@@ -363,6 +363,8 @@ def filter_valid_wgs_ids(prefixes):
     ----------
     prefixes : list of str
         Prefix list (e.g., ['ACOL01', 'AEYK01'])
+    batch_size : int
+        How many prefixes to check at once to avoid 414 URI Too Long
 
     Returns
     -------
@@ -370,6 +372,7 @@ def filter_valid_wgs_ids(prefixes):
         Dict {prefix: organism}, only for valid prefixes.
     """
     db_string = ",".join(f"WGS_VDB://{p}" for p in prefixes)
+    all_valid = {}
 
     headers = {
         "User-Agent": (
@@ -381,25 +384,34 @@ def filter_valid_wgs_ids(prefixes):
         "Accept": "*/*",
     }
 
-    params = {"DATABASE": db_string, "CMD": "getDBOrg"}
+    for i in range(0, len(prefixes), batch_size):
+        batch = prefixes[i:i + batch_size]
+        db_string = ",".join(f"WGS_VDB://{p}" for p in batch)
+        params = {"DATABASE": db_string, "CMD": "getDBOrg"}
 
-    response = requests.get(
-        "https://blast.ncbi.nlm.nih.gov/getDBInfo.cgi", headers=headers, params=params
-    )
-    if response.status_code != 200:
-        raise Exception(f"Request failed with status code {response.status_code}")
+        logger.info(f"Filtering batch {i//batch_size + 1}: {len(batch)} prefixes")
 
-    soup = BeautifulSoup(response.text, "html.parser")
-    table = soup.find("table", {"id": "dbSpecies"})
-    if not table:
-        raise Exception("No species table found in response.")
+        response = requests.get(
+            "https://blast.ncbi.nlm.nih.gov/getDBInfo.cgi",
+            headers=headers,
+            params=params
+        )
+        if response.status_code != 200:
+            logger.error(f"Request failed with status code {response.status_code}")
+            raise Exception(f"Request failed with status code {response.status_code}")
 
-    valid = {}
-    for row in table.find_all("tr")[1:]:
-        cols = row.find_all("td")
-        if len(cols) >= 2:
-            db = cols[0].text.strip().replace("WGS_VDB://", "")
-            organism = cols[1].text.strip()
-            valid[db] = organism
+        soup = BeautifulSoup(response.text, "html.parser")
+        table = soup.find("table", {"id": "dbSpecies"})
+        if not table:
+            logger.warning("No species table found in response for this batch")
+            continue
 
-    return valid
+        for row in table.find_all("tr")[1:]:
+            cols = row.find_all("td")
+            if len(cols) >= 2:
+                db = cols[0].text.strip().replace("WGS_VDB://", "")
+                organism = cols[1].text.strip()
+                all_valid[db] = organism
+
+    logger.info(f"Total validated prefixes: {len(all_valid)}")
+    return all_valid
