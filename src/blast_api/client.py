@@ -3,6 +3,10 @@ import time
 import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
+import logging
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 
 class Alignment:
@@ -77,7 +81,7 @@ class Alignment:
 
 
 def run_blast(sequence, programm="tblastn", database="nt",
-              taxon=None, wait=True, **params):
+              taxon=None, taxids=None, exclude_taxids=None, wait=True, **params):
     """
     Submits a BLAST job to NCBI and retrieves parsed alignment results
     as Alignment objects.
@@ -94,6 +98,11 @@ def run_blast(sequence, programm="tblastn", database="nt",
     taxon : str, optional
         Taxonomic restriction query string (e.g., species name or
         NCBI taxonomy ID).
+    taxids : iterable of int or str, optional
+        NCBI taxonomy IDs whose WGS projects should be searched. This uses
+        NCBI's taxid2wgs endpoint and accepts higher-level taxonomic groups.
+    exclude_taxids : iterable of int or str, optional
+        Taxonomy IDs to exclude when resolving WGS projects.
     **params : dict
         Additional optional BLAST parameters.
 
@@ -102,18 +111,19 @@ def run_blast(sequence, programm="tblastn", database="nt",
     alignments : list of Alignment
         Parsed results containing sequence alignments.
     """
-    if database == "wgs" and taxon:
-        response = requests.post(
-            "https://www.ncbi.nlm.nih.gov/Traces/wgs/index.cgi?",
-            data={'q': f'&wt=xml&q=text%3A*{taxon}*%20AND%20project_s%3Awgs'})
-        prefixes = extract_prefix_organism_pairs(response.text)
-        print("prefixes:", prefixes)
-        prefix_list = [p for p, _ in prefixes]
-        prefixes = filter_valid_wgs_ids(prefix_list)  # checks for database validity
-        for prefix, organism in prefixes.items():
-            print(f"{prefix}: {organism}")
-        database = " ".join([f"WGS_VDB://{p}" for p in prefixes])
-        print("database:", database)
+    if database == "wgs" and (taxids is not None or taxon is not None):
+        if taxids is not None and taxon is not None:
+            raise ValueError("Pass either taxon or taxids, not both")
+        if taxids is not None:
+            include_taxids = taxids
+        elif str(taxon).isdigit():
+            include_taxids = [taxon]
+        else:
+            include_taxids = [resolve_taxon_id(taxon)]
+        projects = get_wgs_projects(include_taxids, exclude_taxids)
+        if not projects:
+            raise ValueError("NCBI returned no WGS projects for the selected taxids")
+        database = " ".join(projects)
         taxon = None
 
     data = {
@@ -157,7 +167,8 @@ def run_blast(sequence, programm="tblastn", database="nt",
         return rid
 
 
-def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True):
+def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True,
+                           alignment_limit=100):
     """
     Waits for a BLAST job to complete, fetches the result in text format,
     and parses the alignments.
@@ -220,14 +231,16 @@ def wait_for_blast_results(rid, rtoe=10, poll_interval=5, verbose=True):
             "FORMAT_OBJECT": "Alignment",
             "FORMAT_TYPE": "Text",
             "RID": rid,
-            "DESCRIPTIONS": 100,
-            "ALIGNMENTS": 100,
+            "DESCRIPTIONS": alignment_limit,
+            "ALIGNMENTS": alignment_limit,
         },
     )
 
     if "There was a problem with the search" in result.text:
         raise Exception(f"NCBI returned an error in final fetch. RID: {rid}")
 
+    if "No hits found" in result.text or "No significant similarity found" in result.text:
+        return []
     return parse_blast_text_output(result.text)
 
 
@@ -329,6 +342,90 @@ def parse_blast_text_output(text):
                 i += 1
 
     return alignments
+
+
+def get_wgs_projects(taxids, exclude_taxids=None, timeout=60):
+    """Resolve taxonomy IDs to NCBI WGS_VDB project identifiers.
+
+    Uses the endpoint behind NCBI's official ``taxid2wgs.pl`` utility.
+    ``taxids`` may contain one or more species or higher-level taxonomy IDs.
+    """
+    if isinstance(taxids, (str, int)):
+        taxids = [taxids]
+    include_ids = [str(taxid).strip() for taxid in taxids]
+    include_ids = [taxid for taxid in include_ids if taxid]
+    if not include_ids or any(not taxid.isdigit() for taxid in include_ids):
+        raise ValueError("taxids must contain one or more numeric NCBI TaxIDs")
+
+    params = {"INCLUDE_TAXIDS": ",".join(include_ids)}
+    if exclude_taxids is not None:
+        if isinstance(exclude_taxids, (str, int)):
+            exclude_taxids = [exclude_taxids]
+        exclude_ids = [str(taxid).strip() for taxid in exclude_taxids]
+        exclude_ids = [taxid for taxid in exclude_ids if taxid]
+        if any(not taxid.isdigit() for taxid in exclude_ids):
+            raise ValueError("exclude_taxids must contain numeric NCBI TaxIDs")
+        if exclude_ids:
+            params["EXCLUDE_TAXIDS"] = ",".join(exclude_ids)
+
+    response = requests.post(
+        "https://www.ncbi.nlm.nih.gov/blast/BDB2EZ/taxid2wgs.cgi",
+        params=params,
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    projects = []
+    for token in response.text.split():
+        if token.startswith("WGS_VDB://"):
+            project = token[len("WGS_VDB://"):]
+            if re.fullmatch(r"[A-Z]{4,6}[0-9]{2}", project):
+                projects.append(token)
+    return list(dict.fromkeys(projects))
+
+
+def resolve_taxon_id(name, timeout=30):
+    """Resolve one exact NCBI Taxonomy name or synonym to a TaxID.
+
+    Ambiguous names raise ``ValueError`` with candidate taxa; callers can then
+    pass the intended identifier explicitly via ``taxids``.
+    """
+    name = str(name).strip()
+    if not name:
+        raise ValueError("Taxon name cannot be empty")
+    if name.isdigit():
+        return name
+
+    response = requests.get(
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        params={"db": "taxonomy", "term": f'"{name}"[name]',
+                "retmode": "xml", "retmax": 20},
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    root = ET.fromstring(response.content)
+    taxids = [element.text for element in root.findall("./IdList/Id") if element.text]
+
+    if not taxids:
+        raise LookupError(f"No NCBI Taxonomy match found for {name!r}")
+    if len(taxids) > 1:
+        summary_response = requests.get(
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+            params={"db": "taxonomy", "id": ",".join(taxids), "retmode": "json"},
+            timeout=timeout,
+        )
+        summary_response.raise_for_status()
+        summaries = summary_response.json().get("result", {})
+        candidates = []
+        for taxid in taxids:
+            record = summaries.get(taxid, {})
+            taxname = record.get("taxname", "unknown name")
+            rank = record.get("rank", "unknown rank")
+            candidates.append(f"{taxname} ({rank}, TaxID {taxid})")
+        raise ValueError(
+            f"Taxon name {name!r} is ambiguous: " + "; ".join(candidates)
+            + ". Pass the intended NCBI TaxID via taxids."
+        )
+    return taxids[0]
 
 
 def extract_prefix_organism_pairs(xml_text):

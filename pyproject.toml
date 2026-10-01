@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blast-api-wgs"
+version = "0.2.0"
+description = "Python client and resumable CLI for NCBI BLAST WGS searches"
+requires-python = ">=3.8"
+dependencies = ["requests>=2.25", "beautifulsoup4>=4.9"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+blast-wgs = "blast_api.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
