@@ -88,3 +88,27 @@ def test_run_blast_resolves_taxon_name_before_submitting_wgs_search():
         "QUERY": "ACGT",
         "ENTREZ_QUERY": None,
     }
+
+
+def test_parser_keeps_hsps_separate_with_their_own_metrics():
+    text = '''>ABC123 example subject
+Length=1000
+ Score = 100 bits (200), Expect = 1e-30
+ Identities = 4/4 (100%)
+Query  1  ACGT  4
+          ||||
+Sbjct  10  ACGT  13
+
+ Score = 50 bits (90), Expect = 1e-10
+ Identities = 3/4 (75%)
+Query  1  ACGT  4
+          |||
+Sbjct  30  ACGA  33
+'''
+    hits = client.parse_blast_text_output(text)
+    assert len(hits) == 2
+    assert [h.query_align for h in hits] == ["ACGT", "ACGT"]
+    assert [h.e_value for h in hits] == ["1e-30", "1e-10"]
+    assert [h.identities for h in hits] == [100, 75]
+    assert [h.subj_len for h in hits] == [1000, 1000]
+    assert [h.subj_range for h in hits] == [(10, 13), (30, 33)]

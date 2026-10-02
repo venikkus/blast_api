@@ -274,8 +274,9 @@ def parse_blast_text_output(text):
         subj_name = " ".join(subj_line.split()[1:])
 
         i = 1
+        subj_len = None
         while i < len(lines):
-            subj_len = score = e_value = identities = align_len = None
+            score_bits = score = e_value = identities = align_len = match_len = None
             query_chunks, sbjct_chunks = [], []
 
             while i < len(lines):
@@ -283,6 +284,8 @@ def parse_blast_text_output(text):
                 if line.startswith("Length="):
                     subj_len = int(line.split("=")[1])
                 elif line.startswith(" Score ="):
+                    if query_chunks:
+                        break  # A new HSP must not overwrite the preceding HSP metrics.
                     score_match = re.search(
                         r"Score\s=\s([\d\.]+)\sbits\s\((\d+)\)", line
                     )

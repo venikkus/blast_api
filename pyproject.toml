@@ -14,6 +14,7 @@ test = ["pytest>=7"]
 
 [project.scripts]
 blast-wgs = "blast_api.cli:main"
+blast-wgs-select = "blast_api.select_hits:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

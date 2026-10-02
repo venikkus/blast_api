@@ -70,6 +70,8 @@ def select_hits(input_dir, output, query_length, max_evalue="1e-5", min_identity
     if re.fullmatch(r"batch_\d+\.tsv", output.name):
         raise ValueError("Output filename must not match batch_NNNN.tsv")
     selected, columns = [], None
+    review = []
+    review_path = output.with_name(output.stem + ".review.tsv")
     stats = {"batches": len(paths), "rows": 0, "selected": 0}
     for path in paths:
         candidates = []
@@ -98,8 +100,18 @@ def select_hits(input_dir, output, query_length, max_evalue="1e-5", min_identity
                         raise ValueError("Invalid query_alignment")
                     covered = len(alignment.replace("-", ""))
                     coverage = Decimal(covered) * 100 / query_length
+                    reason = None
                     if coverage > 100:
-                        raise ValueError("Coverage exceeds 100%; check query length or overlapping HSPs. Legacy TSV cannot resolve overlaps")
+                        reason = "coverage_exceeds_100"
+                    reported_length = row.get("alignment_length", "").strip()
+                    if reported_length and number(reported_length) != len(alignment):
+                        reason = "alignment_length_mismatch_possible_merged_HSPs"
+                    if reason:
+                        review.append(dict(row, source_batch=path.name,
+                                           source_line=reader.line_num, review_reason=reason,
+                                           query_length=query_length,
+                                           aligned_query_residues=covered))
+                        continue
                     if evalue > max_evalue or identity < min_identity or coverage < min_coverage:
                         continue
                     metrics = {"evalue": evalue, "coverage": -coverage,
@@ -122,22 +134,33 @@ def select_hits(input_dir, output, query_length, max_evalue="1e-5", min_identity
             selected.append(row)
             if top_per_batch and rank >= top_per_batch:
                 break
-    # Replace only after all input has been validated, preserving prior output on errors.
+    # Validate every input before writing either output.
+    write_table(review_path, columns + ["source_batch", "source_line", "review_reason",
+                                       "query_length", "aligned_query_residues"], review)
+    write_table(output, columns + EXTRA, selected)
+    stats["selected"] = len(selected)
+    if review:
+        print("WARNING: {} ambiguous rows excluded from selection; preserved in {}. "
+              "Selection is incomplete until these rows are reviewed.".format(
+                  len(review), review_path), file=sys.stderr)
+    return stats
+
+
+def write_table(output, columns, rows):
+    """Atomically replace one table, including a header for empty output."""
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = None
     try:
         with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="",
                                          dir=str(output.parent), delete=False) as handle:
             temporary = Path(handle.name)
-            writer = csv.DictWriter(handle, fieldnames=columns + EXTRA, delimiter="\t")
+            writer = csv.DictWriter(handle, fieldnames=columns, delimiter="\t")
             writer.writeheader()
-            writer.writerows(selected)
+            writer.writerows(rows)
         os.replace(str(temporary), str(output))
     finally:
         if temporary is not None and temporary.exists():
             temporary.unlink()
-    stats["selected"] = len(selected)
-    return stats
 
 
 def main(argv=None):
